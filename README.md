@@ -9,7 +9,7 @@ Use Globus to download data from ESGF, including CMIP6 data.
 Additional requirements - including the Globus GLI (https://docs.globus.org/cli/) and ESGF PyClient (https://github.com/ESGF/esgf-pyclient) - can be installed via the `environment.yml` file with `conda`:
 ```
 conda env create --file environment.yml
-conda activate p22b-esgf-download
+conda activate p22b-esgf-globus
 ```
 
 If `environment.yml` has been modified, then recreate the environment from scratch using the `--force` option:

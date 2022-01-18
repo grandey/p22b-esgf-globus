@@ -1,0 +1,13 @@
+# To create:
+# conda env create --file environment.yml
+# To update, recreate from scratch (due to --prune option of update not working):
+# conda env create --file environment.yml --force
+name: p22b-esgf-globus
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - notebook
+  - pandas
+  - esgf-pyclient>=0.3.0
+  - globus-cli>=3.2.0
