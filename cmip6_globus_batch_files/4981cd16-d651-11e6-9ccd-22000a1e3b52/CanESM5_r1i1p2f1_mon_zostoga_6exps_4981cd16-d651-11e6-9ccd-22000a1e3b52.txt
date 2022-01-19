@@ -1,0 +1,20 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-01-19.
+# Globus endpoint is 4981cd16-d651-11e6-9ccd-22000a1e3b52 (Name: DKRZ ESGF CMIP6).
+# 11 files in batch.
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 4981cd16-d651-11e6-9ccd-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch CanESM5_r1i1p2f1_mon_zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CanESM5_r1i1p2f1_mon_zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+cmip6/CMIP/CCCma/CanESM5/historical/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_historical_r1i1p2f1_gn_185001-201412.nc zostoga/CanESM5_r1i1p2f1/CMIP6.CMIP.CCCma.CanESM5.historical.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_historical_r1i1p2f1_gn_185001-201412.nc
+cmip6/CMIP/CCCma/CanESM5/piControl/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_555001-560012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.CMIP.CCCma.CanESM5.piControl.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_555001-560012.nc
+cmip6/CMIP/CCCma/CanESM5/piControl/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_560101-580012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.CMIP.CCCma.CanESM5.piControl.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_560101-580012.nc
+cmip6/CMIP/CCCma/CanESM5/piControl/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_580101-600012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.CMIP.CCCma.CanESM5.piControl.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_580101-600012.nc
+cmip6/CMIP/CCCma/CanESM5/piControl/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_600101-620012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.CMIP.CCCma.CanESM5.piControl.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_600101-620012.nc
+cmip6/CMIP/CCCma/CanESM5/piControl/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_620101-640012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.CMIP.CCCma.CanESM5.piControl.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_620101-640012.nc
+cmip6/CMIP/CCCma/CanESM5/piControl/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_640101-660012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.CMIP.CCCma.CanESM5.piControl.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_piControl_r1i1p2f1_gn_640101-660012.nc
+cmip6/ScenarioMIP/CCCma/CanESM5/ssp126/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_ssp126_r1i1p2f1_gn_201501-210012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp126.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_ssp126_r1i1p2f1_gn_201501-210012.nc
+cmip6/ScenarioMIP/CCCma/CanESM5/ssp245/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_ssp245_r1i1p2f1_gn_201501-210012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp245.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_ssp245_r1i1p2f1_gn_201501-210012.nc
+cmip6/ScenarioMIP/CCCma/CanESM5/ssp370/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_ssp370_r1i1p2f1_gn_201501-210012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp370.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_ssp370_r1i1p2f1_gn_201501-210012.nc
+cmip6/ScenarioMIP/CCCma/CanESM5/ssp585/r1i1p2f1/Omon/zostoga/gn/v20190429/zostoga_Omon_CanESM5_ssp585_r1i1p2f1_gn_201501-210012.nc zostoga/CanESM5_r1i1p2f1/CMIP6.ScenarioMIP.CCCma.CanESM5.ssp585.r1i1p2f1.Omon.zostoga.gn.v20190429/zostoga_Omon_CanESM5_ssp585_r1i1p2f1_gn_201501-210012.nc
