@@ -19,8 +19,8 @@ if [ $? -ne 0 ]; then
 fi
 
 # Submit batch transfers
-echo IPSL-CM6A-LR_r1i1p1f1_mon_zostoga_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287
-globus transfer ee351394-6ac7-11e7-a9c0-22000bf2d287 $GCP_EP_CMIP6 --batch ee351394-6ac7-11e7-a9c0-22000bf2d287/IPSL-CM6A-LR_r1i1p1f1_mon_zostoga_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM6A-LR_r1i1p1f1_mon_zostoga_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287"
+echo IPSL-CM6A-LR_r1i1p1f1_mon_zostoga-zos_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287
+globus transfer ee351394-6ac7-11e7-a9c0-22000bf2d287 $GCP_EP_CMIP6 --batch ee351394-6ac7-11e7-a9c0-22000bf2d287/IPSL-CM6A-LR_r1i1p1f1_mon_zostoga-zos_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM6A-LR_r1i1p1f1_mon_zostoga-zos_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287"
 sleep 1
 
 exit 0
