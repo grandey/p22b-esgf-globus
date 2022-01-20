@@ -3,6 +3,7 @@
 temp/
 temp_*
 cache/
+archive/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-19.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-20.
 # Globus endpoint is 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 (Name: NCI ESGF).
 # 24 batch file(s).
 # Caution:

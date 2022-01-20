@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-19.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-20.
 # Globus endpoint is 9805b3ba-d9bf-11e5-976c-22000b9da45e (Name: None).
 # 2 batch file(s).
 # Caution:

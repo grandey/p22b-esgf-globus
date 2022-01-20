@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-19.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-20.
 # Globus endpoint is 4981cd16-d651-11e6-9ccd-22000a1e3b52 (Name: DKRZ ESGF CMIP6).
 # 31 batch file(s).
 # Caution:
