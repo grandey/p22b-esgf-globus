@@ -2,17 +2,17 @@
 Use Globus to download data from ESGF, including CMIP6 data.
 
 ## Requirements and setup
-1. A Globus account (https://www.globus.org).
-2. Globus Connect Personal (https://www.globus.org/globus-connect-personal).
+1. A [Globus](https://www.globus.org) account.
+2. [Globus Connect Personal](https://www.globus.org/globus-connect-personal).
 3. An ESGF OpenID / CoG account, for activation of Globus Endpoints.
 
-Additional requirements - including the Globus GLI (https://docs.globus.org/cli/) and ESGF PyClient (https://github.com/ESGF/esgf-pyclient) - can be installed via the [environment.yml](environment.yml) file with `conda`:
+Additional requirements - including the [Globus GLI](https://docs.globus.org/cli/) and [ESGF PyClient](https://github.com/ESGF/esgf-pyclient) - can be installed via the [environment.yml](environment.yml) file with `conda`:
 ```
 conda env create --file environment.yml
 conda activate p22b-esgf-globus
 ```
 
-If `environment.yml` has been modified, then recreate the environment from scratch using the `--force` option:
+If [environment.yml](environment.yml) has been modified, then recreate the environment from scratch using the `--force` option:
 ```
 conda env create --file environment.yml --force
 ```
