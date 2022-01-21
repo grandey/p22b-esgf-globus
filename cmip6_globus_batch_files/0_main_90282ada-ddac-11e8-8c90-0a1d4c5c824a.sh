@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-20.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-21.
 # Globus endpoint is 90282ada-ddac-11e8-8c90-0a1d4c5c824a (Name: None).
 # 2 batch file(s).
 # Caution:
@@ -19,11 +19,11 @@ if [ $? -ne 0 ]; then
 fi
 
 # Submit batch transfers
-echo BCC-CSM2-MR_r1i1p1f1_mon_zostoga-zos_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
-globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-CSM2-MR_r1i1p1f1_mon_zostoga-zos_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-CSM2-MR_r1i1p1f1_mon_zostoga-zos_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
+echo BCC-CSM2-MR_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
+globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-CSM2-MR_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-CSM2-MR_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
 sleep 1
-echo BCC-ESM1_r1i1p1f1_mon_zostoga-zos_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
-globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-ESM1_r1i1p1f1_mon_zostoga-zos_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-ESM1_r1i1p1f1_mon_zostoga-zos_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
+echo BCC-ESM1_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
+globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-ESM1_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-ESM1_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
 sleep 1
 
 exit 0
