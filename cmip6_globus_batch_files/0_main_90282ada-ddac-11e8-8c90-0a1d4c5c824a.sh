@@ -1,8 +1,8 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-21.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-24.
 # Globus endpoint is 90282ada-ddac-11e8-8c90-0a1d4c5c824a (Name: None).
-# 2 batch file(s).
+# 4 batch file(s).
 # Caution:
 # Please do not run this script if previously submitted Globus transfers are still running (to reduce risk of two or more transfers trying to access same local file simultaneously, and in light of Globus limits).
 # Environment variables:
@@ -19,11 +19,17 @@ if [ $? -ne 0 ]; then
 fi
 
 # Submit batch transfers
-echo BCC-CSM2-MR_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
-globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-CSM2-MR_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-CSM2-MR_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
+echo BCC-CSM2-MR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
+globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-CSM2-MR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-CSM2-MR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
 sleep 1
-echo BCC-ESM1_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
-globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-ESM1_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-ESM1_r1i1p1f1_mon_8vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
+echo BCC-ESM1_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
+globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-ESM1_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-ESM1_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
+sleep 1
+echo BCC-CSM2-MR_r1i1p1f1_Amon_4vars-inc-rlut_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
+globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-CSM2-MR_r1i1p1f1_Amon_4vars-inc-rlut_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-CSM2-MR_r1i1p1f1_Amon_4vars-inc-rlut_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
+sleep 1
+echo BCC-ESM1_r1i1p1f1_Amon_4vars-inc-rlut_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a
+globus transfer 90282ada-ddac-11e8-8c90-0a1d4c5c824a $GCP_EP_CMIP6 --batch 90282ada-ddac-11e8-8c90-0a1d4c5c824a/BCC-ESM1_r1i1p1f1_Amon_4vars-inc-rlut_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-ESM1_r1i1p1f1_Amon_4vars-inc-rlut_6exps_90282ada-ddac-11e8-8c90-0a1d4c5c824a"
 sleep 1
 
 exit 0

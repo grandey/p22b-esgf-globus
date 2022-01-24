@@ -1,8 +1,8 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-21.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-24.
 # Globus endpoint is 04cc625e-a79a-11e9-b595-0e56e8fd6d5a (Name: icscamscma#esg.camscma.cn).
-# 1 batch file(s).
+# 2 batch file(s).
 # Caution:
 # Please do not run this script if previously submitted Globus transfers are still running (to reduce risk of two or more transfers trying to access same local file simultaneously, and in light of Globus limits).
 # Environment variables:
@@ -19,8 +19,11 @@ if [ $? -ne 0 ]; then
 fi
 
 # Submit batch transfers
-echo CAMS-CSM1-0_r1i1p1f1_mon_8vars-inc-zostoga_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a
-globus transfer 04cc625e-a79a-11e9-b595-0e56e8fd6d5a $GCP_EP_CMIP6 --batch 04cc625e-a79a-11e9-b595-0e56e8fd6d5a/CAMS-CSM1-0_r1i1p1f1_mon_8vars-inc-zostoga_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CAMS-CSM1-0_r1i1p1f1_mon_8vars-inc-zostoga_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a"
+echo CAMS-CSM1-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a
+globus transfer 04cc625e-a79a-11e9-b595-0e56e8fd6d5a $GCP_EP_CMIP6 --batch 04cc625e-a79a-11e9-b595-0e56e8fd6d5a/CAMS-CSM1-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CAMS-CSM1-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a"
+sleep 1
+echo CAMS-CSM1-0_r1i1p1f1_Amon_4vars-inc-rlut_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a
+globus transfer 04cc625e-a79a-11e9-b595-0e56e8fd6d5a $GCP_EP_CMIP6 --batch 04cc625e-a79a-11e9-b595-0e56e8fd6d5a/CAMS-CSM1-0_r1i1p1f1_Amon_4vars-inc-rlut_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CAMS-CSM1-0_r1i1p1f1_Amon_4vars-inc-rlut_6exps_04cc625e-a79a-11e9-b595-0e56e8fd6d5a"
 sleep 1
 
 exit 0
