@@ -1,4 +1,4 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-01-24.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-01-26.
 # Globus endpoint is 2bfe767c-a073-11e6-b0e1-22000b92c261 (Name: NCAR ESGF Data Node).
 # 60 files in batch (65% coverage of filenames).
 # To activate source endpoint use Globus CLI:

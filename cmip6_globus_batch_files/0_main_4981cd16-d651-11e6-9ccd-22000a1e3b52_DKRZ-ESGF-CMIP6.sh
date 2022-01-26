@@ -1,8 +1,8 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-24.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-26.
 # Globus endpoint is 4981cd16-d651-11e6-9ccd-22000a1e3b52 (Name: DKRZ ESGF CMIP6).
-# 94 batch file(s).
+# 80 batch file(s).
 # Caution:
 # Please do not run this script if previously submitted Globus transfers are still running (to reduce risk of two or more transfers trying to access same local file simultaneously, and in light of Globus limits).
 # Environment variables:
@@ -102,48 +102,6 @@ globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981c
 sleep 1
 echo GFDL-ESM4_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
 globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/GFDL-ESM4_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-ESM4_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo GISS-E2-1-G_r1i1p1f2_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/GISS-E2-1-G_r1i1p1f2_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-G_r1i1p1f2_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo GISS-E2-1-G_r1i1p3f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/GISS-E2-1-G_r1i1p3f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-G_r1i1p3f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo GISS-E2-1-G_r1i1p5f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/GISS-E2-1-G_r1i1p5f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-G_r1i1p5f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo GISS-E2-1-H_r1i1p3f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/GISS-E2-1-H_r1i1p3f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-H_r1i1p3f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo INM-CM4-8_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/INM-CM4-8_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "INM-CM4-8_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo INM-CM5-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/INM-CM5-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "INM-CM5-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo IPSL-CM6A-LR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/IPSL-CM6A-LR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM6A-LR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo MIROC-ES2L_r1i1p1f2_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/MIROC-ES2L_r1i1p1f2_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MIROC-ES2L_r1i1p1f2_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo MIROC6_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/MIROC6_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MIROC6_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo MPI-ESM-1-2-HAM_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/MPI-ESM-1-2-HAM_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MPI-ESM-1-2-HAM_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo MPI-ESM1-2-HR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/MPI-ESM1-2-HR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MPI-ESM1-2-HR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo MPI-ESM1-2-LR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/MPI-ESM1-2-LR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MPI-ESM1-2-LR_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo MRI-ESM2-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/MRI-ESM2-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MRI-ESM2-0_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
-sleep 1
-echo NESM3_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
-globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/NESM3_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "NESM3_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
 sleep 1
 echo NorESM2-LM_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52
 globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch 4981cd16-d651-11e6-9ccd-22000a1e3b52/NorESM2-LM_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "NorESM2-LM_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
