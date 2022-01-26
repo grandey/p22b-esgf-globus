@@ -1,4 +1,4 @@
-# p22b-esgf-download
+# p22b-esgf-globus
 Use Globus to download data from ESGF, including CMIP6 data.
 
 ## Requirements and setup
