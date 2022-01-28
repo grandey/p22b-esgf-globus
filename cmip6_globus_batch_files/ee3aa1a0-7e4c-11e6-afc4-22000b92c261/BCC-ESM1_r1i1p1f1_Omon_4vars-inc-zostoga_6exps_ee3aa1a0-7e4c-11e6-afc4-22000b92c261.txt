@@ -1,4 +1,4 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-01-26.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-01-28.
 # Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
 # 4 files in batch (50% coverage of filenames).
 # To activate source endpoint use Globus CLI:
@@ -7,7 +7,7 @@
 # globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch BCC-ESM1_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "BCC-ESM1_r1i1p1f1_Omon_4vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
 # Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
 
-esg_cmip6/CMIP6/AerChemMIP/BCC/BCC-ESM1/ssp370/r1i1p1f1/Omon/thetaoga/gn/v20190624/thetaoga_Omon_BCC-ESM1_ssp370_r1i1p1f1_gn_201501-205512.nc thetaoga/BCC-ESM1_r1i1p1f1/CMIP6.AerChemMIP.BCC.BCC-ESM1.ssp370.r1i1p1f1.Omon.thetaoga.gn.v20190624/thetaoga_Omon_BCC-ESM1_ssp370_r1i1p1f1_gn_201501-205512.nc
-esg_cmip6/CMIP6/CMIP/BCC/BCC-ESM1/historical/r1i1p1f1/Omon/thetaoga/gn/v20181129/thetaoga_Omon_BCC-ESM1_historical_r1i1p1f1_gn_185001-201412.nc thetaoga/BCC-ESM1_r1i1p1f1/CMIP6.CMIP.BCC.BCC-ESM1.historical.r1i1p1f1.Omon.thetaoga.gn.v20181129/thetaoga_Omon_BCC-ESM1_historical_r1i1p1f1_gn_185001-201412.nc
-esg_cmip6/CMIP6/CMIP/BCC/BCC-ESM1/piControl/r1i1p1f1/Omon/thetaoga/gn/v20181218/thetaoga_Omon_BCC-ESM1_piControl_r1i1p1f1_gn_185001-230012.nc thetaoga/BCC-ESM1_r1i1p1f1/CMIP6.CMIP.BCC.BCC-ESM1.piControl.r1i1p1f1.Omon.thetaoga.gn.v20181218/thetaoga_Omon_BCC-ESM1_piControl_r1i1p1f1_gn_185001-230012.nc
-esg_cmip6/CMIP6/AerChemMIP/BCC/BCC-ESM1/ssp370/r1i1p1f1/Omon/zos/gn/v20190624/zos_Omon_BCC-ESM1_ssp370_r1i1p1f1_gn_201501-205512.nc zos/BCC-ESM1_r1i1p1f1/CMIP6.AerChemMIP.BCC.BCC-ESM1.ssp370.r1i1p1f1.Omon.zos.gn.v20190624/zos_Omon_BCC-ESM1_ssp370_r1i1p1f1_gn_201501-205512.nc
+/esg_cmip6/CMIP6/AerChemMIP/BCC/BCC-ESM1/ssp370/r1i1p1f1/Omon/thetaoga/gn/v20190624/thetaoga_Omon_BCC-ESM1_ssp370_r1i1p1f1_gn_201501-205512.nc thetaoga/BCC-ESM1_r1i1p1f1/CMIP6.AerChemMIP.BCC.BCC-ESM1.ssp370.r1i1p1f1.Omon.thetaoga.gn.v20190624/thetaoga_Omon_BCC-ESM1_ssp370_r1i1p1f1_gn_201501-205512.nc
+/esg_cmip6/CMIP6/CMIP/BCC/BCC-ESM1/historical/r1i1p1f1/Omon/thetaoga/gn/v20181129/thetaoga_Omon_BCC-ESM1_historical_r1i1p1f1_gn_185001-201412.nc thetaoga/BCC-ESM1_r1i1p1f1/CMIP6.CMIP.BCC.BCC-ESM1.historical.r1i1p1f1.Omon.thetaoga.gn.v20181129/thetaoga_Omon_BCC-ESM1_historical_r1i1p1f1_gn_185001-201412.nc
+/esg_cmip6/CMIP6/CMIP/BCC/BCC-ESM1/piControl/r1i1p1f1/Omon/thetaoga/gn/v20181218/thetaoga_Omon_BCC-ESM1_piControl_r1i1p1f1_gn_185001-230012.nc thetaoga/BCC-ESM1_r1i1p1f1/CMIP6.CMIP.BCC.BCC-ESM1.piControl.r1i1p1f1.Omon.thetaoga.gn.v20181218/thetaoga_Omon_BCC-ESM1_piControl_r1i1p1f1_gn_185001-230012.nc
+/esg_cmip6/CMIP6/AerChemMIP/BCC/BCC-ESM1/ssp370/r1i1p1f1/Omon/zos/gn/v20190624/zos_Omon_BCC-ESM1_ssp370_r1i1p1f1_gn_201501-205512.nc zos/BCC-ESM1_r1i1p1f1/CMIP6.AerChemMIP.BCC.BCC-ESM1.ssp370.r1i1p1f1.Omon.zos.gn.v20190624/zos_Omon_BCC-ESM1_ssp370_r1i1p1f1_gn_201501-205512.nc

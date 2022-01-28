@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-26.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-28.
 # Globus endpoint is 415a6320-e49c-11e5-9798-22000b9da45e (Name: LLNL ESGF).
 # 99 batch file(s).
 # Caution:

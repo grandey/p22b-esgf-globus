@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-26.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-28.
 # Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
 # 84 batch file(s).
 # Caution:
