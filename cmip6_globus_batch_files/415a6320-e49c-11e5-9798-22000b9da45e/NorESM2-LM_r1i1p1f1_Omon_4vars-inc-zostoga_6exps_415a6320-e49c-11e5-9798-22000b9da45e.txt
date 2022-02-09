@@ -1,6 +1,6 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-01-28.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-02-09.
 # Globus endpoint is 415a6320-e49c-11e5-9798-22000b9da45e (Name: LLNL ESGF).
-# 361 files in batch (91% coverage of filenames).
+# 365 files in batch (88% coverage of filenames).
 # To activate source endpoint use Globus CLI:
 # globus endpoint activate --web 415a6320-e49c-11e5-9798-22000b9da45e
 # To submit transfer use Globus CLI:
@@ -194,6 +194,10 @@
 /css03_data/CMIP6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/Omon/thetaoga/gm/v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_203101-204012.nc thetaoga/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Omon.thetaoga.gm.v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_203101-204012.nc
 /css03_data/CMIP6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/Omon/thetaoga/gm/v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_204101-205012.nc thetaoga/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Omon.thetaoga.gm.v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_204101-205012.nc
 /css03_data/CMIP6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/Omon/thetaoga/gm/v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_205101-206012.nc thetaoga/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Omon.thetaoga.gm.v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_205101-206012.nc
+/css03_data/CMIP6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/Omon/thetaoga/gm/v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_206101-207012.nc thetaoga/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Omon.thetaoga.gm.v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_206101-207012.nc
+/css03_data/CMIP6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/Omon/thetaoga/gm/v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_207101-208012.nc thetaoga/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Omon.thetaoga.gm.v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_207101-208012.nc
+/css03_data/CMIP6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/Omon/thetaoga/gm/v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_208101-209012.nc thetaoga/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Omon.thetaoga.gm.v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_208101-209012.nc
+/css03_data/CMIP6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/Omon/thetaoga/gm/v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_209101-210012.nc thetaoga/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Omon.thetaoga.gm.v20191108/thetaoga_Omon_NorESM2-LM_ssp585_r1i1p1f1_gm_209101-210012.nc
 /css03_data/CMIP6/CMIP/NCC/NorESM2-LM/piControl/r1i1p1f1/Omon/zos/gn/v20210118/zos_Omon_NorESM2-LM_piControl_r1i1p1f1_gn_160001-160912.nc zos/NorESM2-LM_r1i1p1f1/CMIP6.CMIP.NCC.NorESM2-LM.piControl.r1i1p1f1.Omon.zos.gn.v20210118/zos_Omon_NorESM2-LM_piControl_r1i1p1f1_gn_160001-160912.nc
 /css03_data/CMIP6/CMIP/NCC/NorESM2-LM/piControl/r1i1p1f1/Omon/zos/gn/v20210118/zos_Omon_NorESM2-LM_piControl_r1i1p1f1_gn_161001-161912.nc zos/NorESM2-LM_r1i1p1f1/CMIP6.CMIP.NCC.NorESM2-LM.piControl.r1i1p1f1.Omon.zos.gn.v20210118/zos_Omon_NorESM2-LM_piControl_r1i1p1f1_gn_161001-161912.nc
 /css03_data/CMIP6/CMIP/NCC/NorESM2-LM/piControl/r1i1p1f1/Omon/zos/gn/v20210118/zos_Omon_NorESM2-LM_piControl_r1i1p1f1_gn_162001-162912.nc zos/NorESM2-LM_r1i1p1f1/CMIP6.CMIP.NCC.NorESM2-LM.piControl.r1i1p1f1.Omon.zos.gn.v20210118/zos_Omon_NorESM2-LM_piControl_r1i1p1f1_gn_162001-162912.nc

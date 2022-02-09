@@ -1,6 +1,6 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-01-28.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-02-09.
 # Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
-# 12 files in batch (9% coverage of filenames).
+# 12 files in batch (11% coverage of filenames).
 # To activate source endpoint use Globus CLI:
 # globus endpoint activate --web ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 # To submit transfer use Globus CLI:

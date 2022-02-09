@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-28.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-02-09.
 # Globus endpoint is 4101e3a0-b7df-11eb-a16a-5fad80e6400b (Name: esgfcmcc#esgf-node2.cmcc.it).
 # 4 batch file(s).
 # Caution:

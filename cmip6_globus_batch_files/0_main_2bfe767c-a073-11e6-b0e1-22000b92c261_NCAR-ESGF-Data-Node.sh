@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-01-28.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-02-09.
 # Globus endpoint is 2bfe767c-a073-11e6-b0e1-22000b92c261 (Name: NCAR ESGF Data Node).
 # 2 batch file(s).
 # Caution:
