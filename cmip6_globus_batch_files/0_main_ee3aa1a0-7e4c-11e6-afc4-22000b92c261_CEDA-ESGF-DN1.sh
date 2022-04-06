@@ -1,8 +1,8 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-02-16.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-06.
 # Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
-# 96 batch file(s).
+# 100 batch file(s).
 # Caution:
 # Please do not run this script if previously submitted Globus transfers are still running (to reduce risk of two or more transfers trying to access same local file simultaneously, and in light of Globus limits).
 # Environment variables:
@@ -76,6 +76,9 @@ sleep 1
 echo E3SM-1-1_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/E3SM-1-1_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "E3SM-1-1_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
 sleep 1
+echo E3SM-1-1-ECA_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/E3SM-1-1-ECA_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "E3SM-1-1-ECA_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+sleep 1
 echo EC-Earth3_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/EC-Earth3_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "EC-Earth3_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
 sleep 1
@@ -108,6 +111,9 @@ globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa
 sleep 1
 echo GISS-E2-1-G_r1i1p1f2_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/GISS-E2-1-G_r1i1p1f2_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-G_r1i1p1f2_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+sleep 1
+echo GISS-E2-1-H_r1i1p1f2_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/GISS-E2-1-H_r1i1p1f2_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-H_r1i1p1f2_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
 sleep 1
 echo INM-CM4-8_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/INM-CM4-8_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "INM-CM4-8_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
@@ -211,6 +217,9 @@ sleep 1
 echo E3SM-1-1_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/E3SM-1-1_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "E3SM-1-1_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
 sleep 1
+echo E3SM-1-1-ECA_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/E3SM-1-1-ECA_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "E3SM-1-1-ECA_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+sleep 1
 echo EC-Earth3_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/EC-Earth3_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "EC-Earth3_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
 sleep 1
@@ -246,6 +255,9 @@ globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa
 sleep 1
 echo GISS-E2-1-G_r1i1p5f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/GISS-E2-1-G_r1i1p5f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-G_r1i1p5f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+sleep 1
+echo GISS-E2-1-H_r1i1p1f2_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/GISS-E2-1-H_r1i1p1f2_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-H_r1i1p1f2_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
 sleep 1
 echo GISS-E2-1-H_r1i1p3f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch ee3aa1a0-7e4c-11e6-afc4-22000b92c261/GISS-E2-1-H_r1i1p3f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-1-H_r1i1p3f1_Amon_4vars-inc-rlut_6exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"

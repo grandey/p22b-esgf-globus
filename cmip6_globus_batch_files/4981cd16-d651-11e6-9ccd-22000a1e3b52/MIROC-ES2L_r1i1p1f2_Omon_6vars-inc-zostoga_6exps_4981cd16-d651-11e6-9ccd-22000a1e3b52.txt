@@ -1,6 +1,6 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-02-16.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-06.
 # Globus endpoint is 4981cd16-d651-11e6-9ccd-22000a1e3b52 (Name: DKRZ ESGF CMIP6).
-# 13 files in batch (81% coverage of filenames).
+# 11 files in batch (61% coverage of filenames).
 # To activate source endpoint use Globus CLI:
 # globus endpoint activate --web 4981cd16-d651-11e6-9ccd-22000a1e3b52
 # To submit transfer use Globus CLI:
@@ -12,11 +12,9 @@
 /cmip6/CMIP/MIROC/MIROC-ES2L/piControl/r1i1p1f2/Omon/zos/gn/v20190823/zos_Omon_MIROC-ES2L_piControl_r1i1p1f2_gn_185001-204912.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2L.piControl.r1i1p1f2.Omon.zos.gn.v20190823/zos_Omon_MIROC-ES2L_piControl_r1i1p1f2_gn_185001-204912.nc
 /cmip6/CMIP/MIROC/MIROC-ES2L/piControl/r1i1p1f2/Omon/zos/gn/v20190823/zos_Omon_MIROC-ES2L_piControl_r1i1p1f2_gn_205001-224912.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2L.piControl.r1i1p1f2.Omon.zos.gn.v20190823/zos_Omon_MIROC-ES2L_piControl_r1i1p1f2_gn_205001-224912.nc
 /cmip6/CMIP/MIROC/MIROC-ES2L/piControl/r1i1p1f2/Omon/zos/gn/v20190823/zos_Omon_MIROC-ES2L_piControl_r1i1p1f2_gn_225001-234912.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2L.piControl.r1i1p1f2.Omon.zos.gn.v20190823/zos_Omon_MIROC-ES2L_piControl_r1i1p1f2_gn_225001-234912.nc
-/cmip6/ScenarioMIP/MIROC/MIROC-ES2L/ssp126/r1i1p1f2/Omon/zos/gn/v20190823/zos_Omon_MIROC-ES2L_ssp126_r1i1p1f2_gn_201501-210012.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp126.r1i1p1f2.Omon.zos.gn.v20190823/zos_Omon_MIROC-ES2L_ssp126_r1i1p1f2_gn_201501-210012.nc
 /cmip6/ScenarioMIP/MIROC/MIROC-ES2L/ssp126/r1i1p1f2/Omon/zos/gr1/v20200731/zos_Omon_MIROC-ES2L_ssp126_r1i1p1f2_gr1_201501-210012.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp126.r1i1p1f2.Omon.zos.gr1.v20200731/zos_Omon_MIROC-ES2L_ssp126_r1i1p1f2_gr1_201501-210012.nc
 /cmip6/ScenarioMIP/MIROC/MIROC-ES2L/ssp245/r1i1p1f2/Omon/zos/gn/v20190823/zos_Omon_MIROC-ES2L_ssp245_r1i1p1f2_gn_201501-210012.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp245.r1i1p1f2.Omon.zos.gn.v20190823/zos_Omon_MIROC-ES2L_ssp245_r1i1p1f2_gn_201501-210012.nc
 /cmip6/ScenarioMIP/MIROC/MIROC-ES2L/ssp245/r1i1p1f2/Omon/zos/gr1/v20200731/zos_Omon_MIROC-ES2L_ssp245_r1i1p1f2_gr1_201501-210012.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp245.r1i1p1f2.Omon.zos.gr1.v20200731/zos_Omon_MIROC-ES2L_ssp245_r1i1p1f2_gr1_201501-210012.nc
 /cmip6/ScenarioMIP/MIROC/MIROC-ES2L/ssp370/r1i1p1f2/Omon/zos/gn/v20190823/zos_Omon_MIROC-ES2L_ssp370_r1i1p1f2_gn_201501-210012.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp370.r1i1p1f2.Omon.zos.gn.v20190823/zos_Omon_MIROC-ES2L_ssp370_r1i1p1f2_gn_201501-210012.nc
 /cmip6/ScenarioMIP/MIROC/MIROC-ES2L/ssp370/r1i1p1f2/Omon/zos/gr1/v20200731/zos_Omon_MIROC-ES2L_ssp370_r1i1p1f2_gr1_201501-210012.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp370.r1i1p1f2.Omon.zos.gr1.v20200731/zos_Omon_MIROC-ES2L_ssp370_r1i1p1f2_gr1_201501-210012.nc
-/cmip6/ScenarioMIP/MIROC/MIROC-ES2L/ssp585/r1i1p1f2/Omon/zos/gn/v20190823/zos_Omon_MIROC-ES2L_ssp585_r1i1p1f2_gn_201501-210012.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp585.r1i1p1f2.Omon.zos.gn.v20190823/zos_Omon_MIROC-ES2L_ssp585_r1i1p1f2_gn_201501-210012.nc
 /cmip6/ScenarioMIP/MIROC/MIROC-ES2L/ssp585/r1i1p1f2/Omon/zos/gr1/v20200731/zos_Omon_MIROC-ES2L_ssp585_r1i1p1f2_gr1_201501-210012.nc zos/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp585.r1i1p1f2.Omon.zos.gr1.v20200731/zos_Omon_MIROC-ES2L_ssp585_r1i1p1f2_gr1_201501-210012.nc
