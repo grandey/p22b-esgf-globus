@@ -1,0 +1,14 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-25.
+# Globus endpoint is 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 (Name: NCI ESGF).
+# 5 files in batch (1% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 2058c7d6-a79f-11e6-9ad6-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 $GCP_EP_CMIP6 --batch SAM0-UNICON_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "SAM0-UNICON_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/replica/CMIP6/CMIP/SNU/SAM0-UNICON/abrupt-4xCO2/r1i1p1f1/Omon/zos/gn/v20190323/zos_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_196001-196912.nc zos/SAM0-UNICON_r1i1p1f1/CMIP6.CMIP.SNU.SAM0-UNICON.abrupt-4xCO2.r1i1p1f1.Omon.zos.gn.v20190323/zos_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_196001-196912.nc
+/replica/CMIP6/CMIP/SNU/SAM0-UNICON/abrupt-4xCO2/r1i1p1f1/Omon/zos/gn/v20190323/zos_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_197001-197912.nc zos/SAM0-UNICON_r1i1p1f1/CMIP6.CMIP.SNU.SAM0-UNICON.abrupt-4xCO2.r1i1p1f1.Omon.zos.gn.v20190323/zos_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_197001-197912.nc
+/replica/CMIP6/CMIP/SNU/SAM0-UNICON/abrupt-4xCO2/r1i1p1f1/Omon/zos/gn/v20190323/zos_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_198001-198912.nc zos/SAM0-UNICON_r1i1p1f1/CMIP6.CMIP.SNU.SAM0-UNICON.abrupt-4xCO2.r1i1p1f1.Omon.zos.gn.v20190323/zos_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_198001-198912.nc
+/replica/CMIP6/CMIP/SNU/SAM0-UNICON/abrupt-4xCO2/r1i1p1f1/Omon/zos/gn/v20190323/zos_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_199001-199912.nc zos/SAM0-UNICON_r1i1p1f1/CMIP6.CMIP.SNU.SAM0-UNICON.abrupt-4xCO2.r1i1p1f1.Omon.zos.gn.v20190323/zos_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_199001-199912.nc
+/replica/CMIP6/CMIP/SNU/SAM0-UNICON/abrupt-4xCO2/r1i1p1f1/Omon/hfds/gn/v20190323/hfds_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_198001-198912.nc hfds/SAM0-UNICON_r1i1p1f1/CMIP6.CMIP.SNU.SAM0-UNICON.abrupt-4xCO2.r1i1p1f1.Omon.hfds.gn.v20190323/hfds_Omon_SAM0-UNICON_abrupt-4xCO2_r1i1p1f1_gn_198001-198912.nc

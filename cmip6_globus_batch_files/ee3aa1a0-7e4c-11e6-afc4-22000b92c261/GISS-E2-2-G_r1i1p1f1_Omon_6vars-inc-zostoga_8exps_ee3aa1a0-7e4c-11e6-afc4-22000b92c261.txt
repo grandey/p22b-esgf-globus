@@ -1,0 +1,18 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-25.
+# Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
+# 9 files in batch (23% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+# To submit transfer use Globus CLI:
+# globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch GISS-E2-2-G_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GISS-E2-2-G_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/Omon/zostoga/gn/v20191120/zostoga_Omon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_185001-200012.nc zostoga/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.1pctCO2.r1i1p1f1.Omon.zostoga.gn.v20191120/zostoga_Omon_GISS-E2-2-G_1pctCO2_r1i1p1f1_gn_185001-200012.nc
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/abrupt-4xCO2/r1i1p1f1/Omon/zostoga/gn/v20191120/zostoga_Omon_GISS-E2-2-G_abrupt-4xCO2_r1i1p1f1_gn_185001-200012.nc zostoga/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.abrupt-4xCO2.r1i1p1f1.Omon.zostoga.gn.v20191120/zostoga_Omon_GISS-E2-2-G_abrupt-4xCO2_r1i1p1f1_gn_185001-200012.nc
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Omon/zostoga/gn/v20191120/zostoga_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_200001-215012.nc zostoga/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.piControl.r1i1p1f1.Omon.zostoga.gn.v20191120/zostoga_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_200001-215012.nc
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Omon/zos/gn/v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_200001-202512.nc zos/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.piControl.r1i1p1f1.Omon.zos.gn.v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_200001-202512.nc
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Omon/zos/gn/v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_202601-205012.nc zos/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.piControl.r1i1p1f1.Omon.zos.gn.v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_202601-205012.nc
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Omon/zos/gn/v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_205101-207512.nc zos/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.piControl.r1i1p1f1.Omon.zos.gn.v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_205101-207512.nc
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Omon/zos/gn/v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_207601-210012.nc zos/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.piControl.r1i1p1f1.Omon.zos.gn.v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_207601-210012.nc
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Omon/zos/gn/v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_210101-212512.nc zos/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.piControl.r1i1p1f1.Omon.zos.gn.v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_210101-212512.nc
+/esg_cmip6/CMIP6/CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/Omon/zos/gn/v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_212601-215012.nc zos/GISS-E2-2-G_r1i1p1f1/CMIP6.CMIP.NASA-GISS.GISS-E2-2-G.piControl.r1i1p1f1.Omon.zos.gn.v20191120/zos_Omon_GISS-E2-2-G_piControl_r1i1p1f1_gn_212601-215012.nc

@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-06.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-25.
 # Globus endpoint is ee351394-6ac7-11e7-a9c0-22000bf2d287 (Name: IPSL UPMC ESGF).
 # 3 batch file(s).
 # Caution:
@@ -19,14 +19,14 @@ if [ $? -ne 0 ]; then
 fi
 
 # Submit batch transfers
-echo IPSL-CM6A-LR_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287
-globus transfer ee351394-6ac7-11e7-a9c0-22000bf2d287 $GCP_EP_CMIP6 --batch ee351394-6ac7-11e7-a9c0-22000bf2d287/IPSL-CM6A-LR_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM6A-LR_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287"
+echo IPSL-CM6A-LR_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287
+globus transfer ee351394-6ac7-11e7-a9c0-22000bf2d287 $GCP_EP_CMIP6 --batch ee351394-6ac7-11e7-a9c0-22000bf2d287/IPSL-CM6A-LR_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM6A-LR_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287"
 sleep 1
-echo IPSL-CM5A2-INCA_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287
-globus transfer ee351394-6ac7-11e7-a9c0-22000bf2d287 $GCP_EP_CMIP6 --batch ee351394-6ac7-11e7-a9c0-22000bf2d287/IPSL-CM5A2-INCA_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM5A2-INCA_r1i1p1f1_Amon_4vars-inc-rlut_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287"
+echo IPSL-CM5A2-INCA_r1i1p1f1_Amon_4vars-inc-rlut_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287
+globus transfer ee351394-6ac7-11e7-a9c0-22000bf2d287 $GCP_EP_CMIP6 --batch ee351394-6ac7-11e7-a9c0-22000bf2d287/IPSL-CM5A2-INCA_r1i1p1f1_Amon_4vars-inc-rlut_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM5A2-INCA_r1i1p1f1_Amon_4vars-inc-rlut_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287"
 sleep 1
-echo IPSL-CM6A-LR_r1i1p1f1_mon_4vars-inc-rlut_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287
-globus transfer ee351394-6ac7-11e7-a9c0-22000bf2d287 $GCP_EP_CMIP6 --batch ee351394-6ac7-11e7-a9c0-22000bf2d287/IPSL-CM6A-LR_r1i1p1f1_mon_4vars-inc-rlut_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM6A-LR_r1i1p1f1_mon_4vars-inc-rlut_6exps_ee351394-6ac7-11e7-a9c0-22000bf2d287"
+echo IPSL-CM6A-LR_r1i1p1f1_mon_4vars-inc-rlut_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287
+globus transfer ee351394-6ac7-11e7-a9c0-22000bf2d287 $GCP_EP_CMIP6 --batch ee351394-6ac7-11e7-a9c0-22000bf2d287/IPSL-CM6A-LR_r1i1p1f1_mon_4vars-inc-rlut_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM6A-LR_r1i1p1f1_mon_4vars-inc-rlut_8exps_ee351394-6ac7-11e7-a9c0-22000bf2d287"
 sleep 1
 
 exit 0

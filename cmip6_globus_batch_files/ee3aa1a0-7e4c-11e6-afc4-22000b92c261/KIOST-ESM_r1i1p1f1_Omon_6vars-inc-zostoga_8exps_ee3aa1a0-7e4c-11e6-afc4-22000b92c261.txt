@@ -1,0 +1,17 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-25.
+# Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
+# 8 files in batch (53% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+# To submit transfer use Globus CLI:
+# globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch KIOST-ESM_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "KIOST-ESM_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/esg_cmip6/CMIP6/CMIP/KIOST/KIOST-ESM/historical/r1i1p1f1/Omon/zos/gr1/v20200825/zos_Omon_KIOST-ESM_historical_r1i1p1f1_gr1_185001-201412.nc zos/KIOST-ESM_r1i1p1f1/CMIP6.CMIP.KIOST.KIOST-ESM.historical.r1i1p1f1.Omon.zos.gr1.v20200825/zos_Omon_KIOST-ESM_historical_r1i1p1f1_gr1_185001-201412.nc
+/esg_cmip6/CMIP6/CMIP/KIOST/KIOST-ESM/piControl/r1i1p1f1/Omon/zos/gr1/v20210322/zos_Omon_KIOST-ESM_piControl_r1i1p1f1_gr1_318901-333812.nc zos/KIOST-ESM_r1i1p1f1/CMIP6.CMIP.KIOST.KIOST-ESM.piControl.r1i1p1f1.Omon.zos.gr1.v20210322/zos_Omon_KIOST-ESM_piControl_r1i1p1f1_gr1_318901-333812.nc
+/esg_cmip6/CMIP6/ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/Omon/zos/gr1/v20200825/zos_Omon_KIOST-ESM_ssp126_r1i1p1f1_gr1_201501-210012.nc zos/KIOST-ESM_r1i1p1f1/CMIP6.ScenarioMIP.KIOST.KIOST-ESM.ssp126.r1i1p1f1.Omon.zos.gr1.v20200825/zos_Omon_KIOST-ESM_ssp126_r1i1p1f1_gr1_201501-210012.nc
+/esg_cmip6/CMIP6/ScenarioMIP/KIOST/KIOST-ESM/ssp245/r1i1p1f1/Omon/zos/gr1/v20200825/zos_Omon_KIOST-ESM_ssp245_r1i1p1f1_gr1_201501-210012.nc zos/KIOST-ESM_r1i1p1f1/CMIP6.ScenarioMIP.KIOST.KIOST-ESM.ssp245.r1i1p1f1.Omon.zos.gr1.v20200825/zos_Omon_KIOST-ESM_ssp245_r1i1p1f1_gr1_201501-210012.nc
+/esg_cmip6/CMIP6/ScenarioMIP/KIOST/KIOST-ESM/ssp585/r1i1p1f1/Omon/zos/gr1/v20200825/zos_Omon_KIOST-ESM_ssp585_r1i1p1f1_gr1_201501-210012.nc zos/KIOST-ESM_r1i1p1f1/CMIP6.ScenarioMIP.KIOST.KIOST-ESM.ssp585.r1i1p1f1.Omon.zos.gr1.v20200825/zos_Omon_KIOST-ESM_ssp585_r1i1p1f1_gr1_201501-210012.nc
+/esg_cmip6/CMIP6/CMIP/KIOST/KIOST-ESM/historical/r1i1p1f1/Omon/hfds/gr1/v20210319/hfds_Omon_KIOST-ESM_historical_r1i1p1f1_gr1_185001-201412.nc hfds/KIOST-ESM_r1i1p1f1/CMIP6.CMIP.KIOST.KIOST-ESM.historical.r1i1p1f1.Omon.hfds.gr1.v20210319/hfds_Omon_KIOST-ESM_historical_r1i1p1f1_gr1_185001-201412.nc
+/esg_cmip6/CMIP6/CMIP/KIOST/KIOST-ESM/piControl/r1i1p1f1/Omon/hfds/gr1/v20210324/hfds_Omon_KIOST-ESM_piControl_r1i1p1f1_gr1_318901-333812.nc hfds/KIOST-ESM_r1i1p1f1/CMIP6.CMIP.KIOST.KIOST-ESM.piControl.r1i1p1f1.Omon.hfds.gr1.v20210324/hfds_Omon_KIOST-ESM_piControl_r1i1p1f1_gr1_318901-333812.nc
+/esg_cmip6/CMIP6/ScenarioMIP/KIOST/KIOST-ESM/ssp245/r1i1p1f1/Omon/hfds/gr1/v20210319/hfds_Omon_KIOST-ESM_ssp245_r1i1p1f1_gr1_201501-210012.nc hfds/KIOST-ESM_r1i1p1f1/CMIP6.ScenarioMIP.KIOST.KIOST-ESM.ssp245.r1i1p1f1.Omon.hfds.gr1.v20210319/hfds_Omon_KIOST-ESM_ssp245_r1i1p1f1_gr1_201501-210012.nc

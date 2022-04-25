@@ -1,0 +1,14 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-25.
+# Globus endpoint is 4981cd16-d651-11e6-9ccd-22000a1e3b52 (Name: DKRZ ESGF CMIP6).
+# 5 files in batch (42% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 4981cd16-d651-11e6-9ccd-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch MIROC-ES2H_r1i1p1f2_Amon_4vars-inc-rlut_8exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MIROC-ES2H_r1i1p1f2_Amon_4vars-inc-rlut_8exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/cmip6/CMIP/MIROC/MIROC-ES2H/historical/r1i1p1f2/Amon/rlut/gn/v20210125/rlut_Amon_MIROC-ES2H_historical_r1i1p1f2_gn_185001-185012.nc rlut/MIROC-ES2H_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2H.historical.r1i1p1f2.Amon.rlut.gn.v20210125/rlut_Amon_MIROC-ES2H_historical_r1i1p1f2_gn_185001-185012.nc
+/cmip6/CMIP/MIROC/MIROC-ES2H/historical/r1i1p1f2/Amon/rsdt/gn/v20210125/rsdt_Amon_MIROC-ES2H_historical_r1i1p1f2_gn_185001-185012.nc rsdt/MIROC-ES2H_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2H.historical.r1i1p1f2.Amon.rsdt.gn.v20210125/rsdt_Amon_MIROC-ES2H_historical_r1i1p1f2_gn_185001-185012.nc
+/cmip6/CMIP/MIROC/MIROC-ES2H/historical/r1i1p1f2/Amon/rsut/gn/v20210125/rsut_Amon_MIROC-ES2H_historical_r1i1p1f2_gn_185001-185012.nc rsut/MIROC-ES2H_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2H.historical.r1i1p1f2.Amon.rsut.gn.v20210125/rsut_Amon_MIROC-ES2H_historical_r1i1p1f2_gn_185001-185012.nc
+/cmip6/CMIP/MIROC/MIROC-ES2H/historical/r1i1p1f2/Amon/tas/gn/v20210125/tas_Amon_MIROC-ES2H_historical_r1i1p1f2_gn_185001-185012.nc tas/MIROC-ES2H_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2H.historical.r1i1p1f2.Amon.tas.gn.v20210125/tas_Amon_MIROC-ES2H_historical_r1i1p1f2_gn_185001-185012.nc
+/cmip6/CMIP/MIROC/MIROC-ES2H/piControl/r1i1p1f2/Amon/tas/gn/v20210125/tas_Amon_MIROC-ES2H_piControl_r1i1p1f2_gn_185001-185012.nc tas/MIROC-ES2H_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2H.piControl.r1i1p1f2.Amon.tas.gn.v20210125/tas_Amon_MIROC-ES2H_piControl_r1i1p1f2_gn_185001-185012.nc

@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-06.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-25.
 # Globus endpoint is 4101e3a0-b7df-11eb-a16a-5fad80e6400b (Name: esgfcmcc#esgf-node2.cmcc.it).
 # 4 batch file(s).
 # Caution:
@@ -19,17 +19,17 @@ if [ $? -ne 0 ]; then
 fi
 
 # Submit batch transfers
-echo CMCC-CM2-SR5_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b
-globus transfer 4101e3a0-b7df-11eb-a16a-5fad80e6400b $GCP_EP_CMIP6 --batch 4101e3a0-b7df-11eb-a16a-5fad80e6400b/CMCC-CM2-SR5_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CMCC-CM2-SR5_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b"
+echo CMCC-CM2-SR5_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b
+globus transfer 4101e3a0-b7df-11eb-a16a-5fad80e6400b $GCP_EP_CMIP6 --batch 4101e3a0-b7df-11eb-a16a-5fad80e6400b/CMCC-CM2-SR5_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CMCC-CM2-SR5_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b"
 sleep 1
-echo CMCC-ESM2_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b
-globus transfer 4101e3a0-b7df-11eb-a16a-5fad80e6400b $GCP_EP_CMIP6 --batch 4101e3a0-b7df-11eb-a16a-5fad80e6400b/CMCC-ESM2_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CMCC-ESM2_r1i1p1f1_Omon_6vars-inc-zostoga_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b"
+echo CMCC-ESM2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b
+globus transfer 4101e3a0-b7df-11eb-a16a-5fad80e6400b $GCP_EP_CMIP6 --batch 4101e3a0-b7df-11eb-a16a-5fad80e6400b/CMCC-ESM2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CMCC-ESM2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b"
 sleep 1
-echo CMCC-CM2-SR5_r1i1p1f1_Amon_4vars-inc-rlut_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b
-globus transfer 4101e3a0-b7df-11eb-a16a-5fad80e6400b $GCP_EP_CMIP6 --batch 4101e3a0-b7df-11eb-a16a-5fad80e6400b/CMCC-CM2-SR5_r1i1p1f1_Amon_4vars-inc-rlut_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CMCC-CM2-SR5_r1i1p1f1_Amon_4vars-inc-rlut_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b"
+echo CMCC-CM2-SR5_r1i1p1f1_Amon_4vars-inc-rlut_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b
+globus transfer 4101e3a0-b7df-11eb-a16a-5fad80e6400b $GCP_EP_CMIP6 --batch 4101e3a0-b7df-11eb-a16a-5fad80e6400b/CMCC-CM2-SR5_r1i1p1f1_Amon_4vars-inc-rlut_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CMCC-CM2-SR5_r1i1p1f1_Amon_4vars-inc-rlut_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b"
 sleep 1
-echo CMCC-ESM2_r1i1p1f1_Amon_4vars-inc-rlut_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b
-globus transfer 4101e3a0-b7df-11eb-a16a-5fad80e6400b $GCP_EP_CMIP6 --batch 4101e3a0-b7df-11eb-a16a-5fad80e6400b/CMCC-ESM2_r1i1p1f1_Amon_4vars-inc-rlut_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CMCC-ESM2_r1i1p1f1_Amon_4vars-inc-rlut_6exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b"
+echo CMCC-ESM2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b
+globus transfer 4101e3a0-b7df-11eb-a16a-5fad80e6400b $GCP_EP_CMIP6 --batch 4101e3a0-b7df-11eb-a16a-5fad80e6400b/CMCC-ESM2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CMCC-ESM2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_4101e3a0-b7df-11eb-a16a-5fad80e6400b"
 sleep 1
 
 exit 0
