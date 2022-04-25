@@ -21,27 +21,27 @@ fi
 # Submit batch transfers
 echo CESM2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261
 globus transfer 2bfe767c-a073-11e6-b0e1-22000b92c261 $GCP_EP_CMIP6 --batch 2bfe767c-a073-11e6-b0e1-22000b92c261/CESM2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CESM2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261"
-sleep 1
+sleep 5
 echo CESM2-FV2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261
 globus transfer 2bfe767c-a073-11e6-b0e1-22000b92c261 $GCP_EP_CMIP6 --batch 2bfe767c-a073-11e6-b0e1-22000b92c261/CESM2-FV2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CESM2-FV2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261"
-sleep 1
+sleep 5
 echo CESM2-WACCM_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261
 globus transfer 2bfe767c-a073-11e6-b0e1-22000b92c261 $GCP_EP_CMIP6 --batch 2bfe767c-a073-11e6-b0e1-22000b92c261/CESM2-WACCM_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CESM2-WACCM_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261"
-sleep 1
+sleep 5
 echo CESM2-WACCM-FV2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261
 globus transfer 2bfe767c-a073-11e6-b0e1-22000b92c261 $GCP_EP_CMIP6 --batch 2bfe767c-a073-11e6-b0e1-22000b92c261/CESM2-WACCM-FV2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CESM2-WACCM-FV2_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261"
-sleep 1
+sleep 5
 echo CESM2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261
 globus transfer 2bfe767c-a073-11e6-b0e1-22000b92c261 $GCP_EP_CMIP6 --batch 2bfe767c-a073-11e6-b0e1-22000b92c261/CESM2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CESM2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261"
-sleep 1
+sleep 5
 echo CESM2-FV2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261
 globus transfer 2bfe767c-a073-11e6-b0e1-22000b92c261 $GCP_EP_CMIP6 --batch 2bfe767c-a073-11e6-b0e1-22000b92c261/CESM2-FV2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CESM2-FV2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261"
-sleep 1
+sleep 5
 echo CESM2-WACCM_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261
 globus transfer 2bfe767c-a073-11e6-b0e1-22000b92c261 $GCP_EP_CMIP6 --batch 2bfe767c-a073-11e6-b0e1-22000b92c261/CESM2-WACCM_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CESM2-WACCM_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261"
-sleep 1
+sleep 5
 echo CESM2-WACCM-FV2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261
 globus transfer 2bfe767c-a073-11e6-b0e1-22000b92c261 $GCP_EP_CMIP6 --batch 2bfe767c-a073-11e6-b0e1-22000b92c261/CESM2-WACCM-FV2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CESM2-WACCM-FV2_r1i1p1f1_Amon_4vars-inc-rlut_8exps_2bfe767c-a073-11e6-b0e1-22000b92c261"
-sleep 1
+sleep 5
 
 exit 0

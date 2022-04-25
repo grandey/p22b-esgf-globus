@@ -21,12 +21,12 @@ fi
 # Submit batch transfers
 echo GFDL-CM4_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e
 globus transfer 9805b3ba-d9bf-11e5-976c-22000b9da45e $GCP_EP_CMIP6 --batch 9805b3ba-d9bf-11e5-976c-22000b9da45e/GFDL-CM4_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-CM4_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e"
-sleep 1
+sleep 5
 echo GFDL-ESM4_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e
 globus transfer 9805b3ba-d9bf-11e5-976c-22000b9da45e $GCP_EP_CMIP6 --batch 9805b3ba-d9bf-11e5-976c-22000b9da45e/GFDL-ESM4_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-ESM4_r1i1p1f1_Omon_6vars-inc-zostoga_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e"
-sleep 1
+sleep 5
 echo GFDL-ESM4_r1i1p1f1_Amon_4vars-inc-rlut_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e
 globus transfer 9805b3ba-d9bf-11e5-976c-22000b9da45e $GCP_EP_CMIP6 --batch 9805b3ba-d9bf-11e5-976c-22000b9da45e/GFDL-ESM4_r1i1p1f1_Amon_4vars-inc-rlut_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-ESM4_r1i1p1f1_Amon_4vars-inc-rlut_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e"
-sleep 1
+sleep 5
 
 exit 0
