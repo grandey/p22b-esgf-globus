@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-25.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-26.
 # Globus endpoint is ee351394-6ac7-11e7-a9c0-22000bf2d287 (Name: IPSL UPMC ESGF).
 # 3 batch file(s).
 # Caution:

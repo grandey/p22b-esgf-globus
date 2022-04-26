@@ -1,4 +1,4 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-25.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-26.
 # Globus endpoint is 9805b3ba-d9bf-11e5-976c-22000b9da45e (Name: None).
 # 275 files in batch (96% coverage of filenames).
 # To activate source endpoint use Globus CLI:

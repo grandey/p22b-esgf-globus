@@ -1,4 +1,4 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-25.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-26.
 # Globus endpoint is 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 (Name: NCI ESGF).
 # 47 files in batch (90% coverage of filenames).
 # To activate source endpoint use Globus CLI:
