@@ -1,0 +1,12 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 415a6320-e49c-11e5-9798-22000b9da45e (Name: LLNL ESGF).
+# 3 files in batch (100% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 415a6320-e49c-11e5-9798-22000b9da45e
+# To submit transfer use Globus CLI:
+# globus transfer 415a6320-e49c-11e5-9798-22000b9da45e $GCP_EP_CMIP6 --batch E3SM-1-1_r1i1p1f1_fx_areacello-areacella_8exps_415a6320-e49c-11e5-9798-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "E3SM-1-1_r1i1p1f1_fx_areacello-areacella_8exps_415a6320-e49c-11e5-9798-22000b9da45e"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/user_pub_work/CMIP6/CMIP/E3SM-Project/E3SM-1-1/historical/r1i1p1f1/fx/areacella/gr/v20191212/areacella_fx_E3SM-1-1_historical_r1i1p1f1_gr.nc areacella/E3SM-1-1_r1i1p1f1/CMIP6.CMIP.E3SM-Project.E3SM-1-1.historical.r1i1p1f1.fx.areacella.gr.v20191212/areacella_fx_E3SM-1-1_historical_r1i1p1f1_gr.nc
+/user_pub_work/CMIP6/CMIP/E3SM-Project/E3SM-1-1/piControl/r1i1p1f1/fx/areacella/gr/v20201123/areacella_fx_E3SM-1-1_piControl_r1i1p1f1_gr.nc areacella/E3SM-1-1_r1i1p1f1/CMIP6.CMIP.E3SM-Project.E3SM-1-1.piControl.r1i1p1f1.fx.areacella.gr.v20201123/areacella_fx_E3SM-1-1_piControl_r1i1p1f1_gr.nc
+/user_pub_work/CMIP6/ScenarioMIP/E3SM-Project/E3SM-1-1/ssp585/r1i1p1f1/fx/areacella/gr/v20201117/areacella_fx_E3SM-1-1_ssp585_r1i1p1f1_gr.nc areacella/E3SM-1-1_r1i1p1f1/CMIP6.ScenarioMIP.E3SM-Project.E3SM-1-1.ssp585.r1i1p1f1.fx.areacella.gr.v20201117/areacella_fx_E3SM-1-1_ssp585_r1i1p1f1_gr.nc

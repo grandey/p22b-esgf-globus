@@ -1,0 +1,20 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
+# 11 files in batch (79% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+# To submit transfer use Globus CLI:
+# globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch GFDL-ESM4_r1i1p1f1_fx_areacello-areacella_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-ESM4_r1i1p1f1_fx_areacello-areacella_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/esg_cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/1pctCO2/r1i1p1f1/Ofx/areacello/gn/v20180701/areacello_Ofx_GFDL-ESM4_1pctCO2_r1i1p1f1_gn.nc areacello/GFDL-ESM4_r1i1p1f1/CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.1pctCO2.r1i1p1f1.Ofx.areacello.gn.v20180701/areacello_Ofx_GFDL-ESM4_1pctCO2_r1i1p1f1_gn.nc
+/esg_cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/1pctCO2/r1i1p1f1/Ofx/areacello/gr/v20180701/areacello_Ofx_GFDL-ESM4_1pctCO2_r1i1p1f1_gr.nc areacello/GFDL-ESM4_r1i1p1f1/CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.1pctCO2.r1i1p1f1.Ofx.areacello.gr.v20180701/areacello_Ofx_GFDL-ESM4_1pctCO2_r1i1p1f1_gr.nc
+/esg_cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Ofx/areacello/gn/v20190726/areacello_Ofx_GFDL-ESM4_historical_r1i1p1f1_gn.nc areacello/GFDL-ESM4_r1i1p1f1/CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.historical.r1i1p1f1.Ofx.areacello.gn.v20190726/areacello_Ofx_GFDL-ESM4_historical_r1i1p1f1_gn.nc
+/esg_cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Ofx/areacello/gr/v20190726/areacello_Ofx_GFDL-ESM4_historical_r1i1p1f1_gr.nc areacello/GFDL-ESM4_r1i1p1f1/CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.historical.r1i1p1f1.Ofx.areacello.gr.v20190726/areacello_Ofx_GFDL-ESM4_historical_r1i1p1f1_gr.nc
+/esg_cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/piControl/r1i1p1f1/Ofx/areacello/gn/v20180701/areacello_Ofx_GFDL-ESM4_piControl_r1i1p1f1_gn.nc areacello/GFDL-ESM4_r1i1p1f1/CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.piControl.r1i1p1f1.Ofx.areacello.gn.v20180701/areacello_Ofx_GFDL-ESM4_piControl_r1i1p1f1_gn.nc
+/esg_cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/piControl/r1i1p1f1/Ofx/areacello/gr/v20180701/areacello_Ofx_GFDL-ESM4_piControl_r1i1p1f1_gr.nc areacello/GFDL-ESM4_r1i1p1f1/CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.piControl.r1i1p1f1.Ofx.areacello.gr.v20180701/areacello_Ofx_GFDL-ESM4_piControl_r1i1p1f1_gr.nc
+/esg_cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/fx/areacella/gr1/v20190726/areacella_fx_GFDL-ESM4_historical_r1i1p1f1_gr1.nc areacella/GFDL-ESM4_r1i1p1f1/CMIP6.CMIP.NOAA-GFDL.GFDL-ESM4.historical.r1i1p1f1.fx.areacella.gr1.v20190726/areacella_fx_GFDL-ESM4_historical_r1i1p1f1_gr1.nc
+/esg_cmip6/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-ESM4/ssp126/r1i1p1f1/fx/areacella/gr1/v20180701/areacella_fx_GFDL-ESM4_ssp126_r1i1p1f1_gr1.nc areacella/GFDL-ESM4_r1i1p1f1/CMIP6.ScenarioMIP.NOAA-GFDL.GFDL-ESM4.ssp126.r1i1p1f1.fx.areacella.gr1.v20180701/areacella_fx_GFDL-ESM4_ssp126_r1i1p1f1_gr1.nc
+/esg_cmip6/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-ESM4/ssp245/r1i1p1f1/fx/areacella/gr1/v20180701/areacella_fx_GFDL-ESM4_ssp245_r1i1p1f1_gr1.nc areacella/GFDL-ESM4_r1i1p1f1/CMIP6.ScenarioMIP.NOAA-GFDL.GFDL-ESM4.ssp245.r1i1p1f1.fx.areacella.gr1.v20180701/areacella_fx_GFDL-ESM4_ssp245_r1i1p1f1_gr1.nc
+/esg_cmip6/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-ESM4/ssp370/r1i1p1f1/fx/areacella/gr1/v20180701/areacella_fx_GFDL-ESM4_ssp370_r1i1p1f1_gr1.nc areacella/GFDL-ESM4_r1i1p1f1/CMIP6.ScenarioMIP.NOAA-GFDL.GFDL-ESM4.ssp370.r1i1p1f1.fx.areacella.gr1.v20180701/areacella_fx_GFDL-ESM4_ssp370_r1i1p1f1_gr1.nc
+/esg_cmip6/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-ESM4/ssp585/r1i1p1f1/fx/areacella/gr1/v20180701/areacella_fx_GFDL-ESM4_ssp585_r1i1p1f1_gr1.nc areacella/GFDL-ESM4_r1i1p1f1/CMIP6.ScenarioMIP.NOAA-GFDL.GFDL-ESM4.ssp585.r1i1p1f1.fx.areacella.gr1.v20180701/areacella_fx_GFDL-ESM4_ssp585_r1i1p1f1_gr1.nc

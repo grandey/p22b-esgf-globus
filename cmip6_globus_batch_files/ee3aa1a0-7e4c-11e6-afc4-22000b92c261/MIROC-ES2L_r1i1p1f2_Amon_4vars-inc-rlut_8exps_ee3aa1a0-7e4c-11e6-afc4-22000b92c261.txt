@@ -1,6 +1,6 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-26.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
 # Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
-# 32 files in batch (67% coverage of filenames).
+# 34 files in batch (71% coverage of filenames).
 # To activate source endpoint use Globus CLI:
 # globus endpoint activate --web ee3aa1a0-7e4c-11e6-afc4-22000b92c261
 # To submit transfer use Globus CLI:
@@ -37,5 +37,7 @@
 /esg_cmip6/CMIP6/CMIP/MIROC/MIROC-ES2L/piControl/r1i1p1f2/Amon/tas/gn/v20190823/tas_Amon_MIROC-ES2L_piControl_r1i1p1f2_gn_185001-204912.nc tas/MIROC-ES2L_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2L.piControl.r1i1p1f2.Amon.tas.gn.v20190823/tas_Amon_MIROC-ES2L_piControl_r1i1p1f2_gn_185001-204912.nc
 /esg_cmip6/CMIP6/CMIP/MIROC/MIROC-ES2L/piControl/r1i1p1f2/Amon/tas/gn/v20190823/tas_Amon_MIROC-ES2L_piControl_r1i1p1f2_gn_205001-224912.nc tas/MIROC-ES2L_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2L.piControl.r1i1p1f2.Amon.tas.gn.v20190823/tas_Amon_MIROC-ES2L_piControl_r1i1p1f2_gn_205001-224912.nc
 /esg_cmip6/CMIP6/CMIP/MIROC/MIROC-ES2L/piControl/r1i1p1f2/Amon/tas/gn/v20190823/tas_Amon_MIROC-ES2L_piControl_r1i1p1f2_gn_225001-234912.nc tas/MIROC-ES2L_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2L.piControl.r1i1p1f2.Amon.tas.gn.v20190823/tas_Amon_MIROC-ES2L_piControl_r1i1p1f2_gn_225001-234912.nc
+/esg_cmip6/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp126/r1i1p1f2/Amon/tas/gn/v20220314/tas_Amon_MIROC-ES2L_ssp126_r1i1p1f2_gn_201501-210012.nc tas/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp126.r1i1p1f2.Amon.tas.gn.v20220314/tas_Amon_MIROC-ES2L_ssp126_r1i1p1f2_gn_201501-210012.nc
+/esg_cmip6/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp126/r1i1p1f2/Amon/tas/gn/v20220314/tas_Amon_MIROC-ES2L_ssp126_r1i1p1f2_gn_210101-230012.nc tas/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp126.r1i1p1f2.Amon.tas.gn.v20220314/tas_Amon_MIROC-ES2L_ssp126_r1i1p1f2_gn_210101-230012.nc
 /esg_cmip6/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp245/r1i1p1f2/Amon/tas/gn/v20190823/tas_Amon_MIROC-ES2L_ssp245_r1i1p1f2_gn_201501-210012.nc tas/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp245.r1i1p1f2.Amon.tas.gn.v20190823/tas_Amon_MIROC-ES2L_ssp245_r1i1p1f2_gn_201501-210012.nc
 /esg_cmip6/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp370/r1i1p1f2/Amon/tas/gn/v20190823/tas_Amon_MIROC-ES2L_ssp370_r1i1p1f2_gn_201501-210012.nc tas/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp370.r1i1p1f2.Amon.tas.gn.v20190823/tas_Amon_MIROC-ES2L_ssp370_r1i1p1f2_gn_201501-210012.nc

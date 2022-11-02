@@ -1,6 +1,6 @@
-# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-04-26.
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
 # Globus endpoint is 415a6320-e49c-11e5-9798-22000b9da45e (Name: LLNL ESGF).
-# 75 files in batch (94% coverage of filenames).
+# 77 files in batch (96% coverage of filenames).
 # To activate source endpoint use Globus CLI:
 # globus endpoint activate --web 415a6320-e49c-11e5-9798-22000b9da45e
 # To submit transfer use Globus CLI:
@@ -46,6 +46,7 @@
 /css03_data/CMIP6/ScenarioMIP/MRI/MRI-ESM2-0/ssp585/r1i1p1f1/Omon/zos/gr/v20200120/zos_Omon_MRI-ESM2-0_ssp585_r1i1p1f1_gr_201501-210012.nc zos/MRI-ESM2-0_r1i1p1f1/CMIP6.ScenarioMIP.MRI.MRI-ESM2-0.ssp585.r1i1p1f1.Omon.zos.gr.v20200120/zos_Omon_MRI-ESM2-0_ssp585_r1i1p1f1_gr_201501-210012.nc
 /css03_data/CMIP6/ScenarioMIP/MRI/MRI-ESM2-0/ssp585/r1i1p1f1/Omon/zos/gr/v20200120/zos_Omon_MRI-ESM2-0_ssp585_r1i1p1f1_gr_210101-230012.nc zos/MRI-ESM2-0_r1i1p1f1/CMIP6.ScenarioMIP.MRI.MRI-ESM2-0.ssp585.r1i1p1f1.Omon.zos.gr.v20200120/zos_Omon_MRI-ESM2-0_ssp585_r1i1p1f1_gr_210101-230012.nc
 /css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/1pctCO2/r1i1p1f1/Omon/hfds/gn/v20210311/hfds_Omon_MRI-ESM2-0_1pctCO2_r1i1p1f1_gn_185001-200012.nc hfds/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.1pctCO2.r1i1p1f1.Omon.hfds.gn.v20210311/hfds_Omon_MRI-ESM2-0_1pctCO2_r1i1p1f1_gn_185001-200012.nc
+/css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/1pctCO2/r1i1p1f1/Omon/hfds/gr/v20191205/hfds_Omon_MRI-ESM2-0_1pctCO2_r1i1p1f1_gr_185001-200012.nc hfds/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.1pctCO2.r1i1p1f1.Omon.hfds.gr.v20191205/hfds_Omon_MRI-ESM2-0_1pctCO2_r1i1p1f1_gr_185001-200012.nc
 /css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/abrupt-4xCO2/r1i1p1f1/Omon/hfds/gn/v20210311/hfds_Omon_MRI-ESM2-0_abrupt-4xCO2_r1i1p1f1_gn_185001-200012.nc hfds/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.abrupt-4xCO2.r1i1p1f1.Omon.hfds.gn.v20210311/hfds_Omon_MRI-ESM2-0_abrupt-4xCO2_r1i1p1f1_gn_185001-200012.nc
 /css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/abrupt-4xCO2/r1i1p1f1/Omon/hfds/gr/v20191224/hfds_Omon_MRI-ESM2-0_abrupt-4xCO2_r1i1p1f1_gr_185001-200012.nc hfds/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.abrupt-4xCO2.r1i1p1f1.Omon.hfds.gr.v20191224/hfds_Omon_MRI-ESM2-0_abrupt-4xCO2_r1i1p1f1_gr_185001-200012.nc
 /css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Omon/hfds/gn/v20210311/hfds_Omon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc hfds/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.historical.r1i1p1f1.Omon.hfds.gn.v20210311/hfds_Omon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc
@@ -65,6 +66,7 @@
 /css03_data/CMIP6/ScenarioMIP/MRI/MRI-ESM2-0/ssp585/r1i1p1f1/Omon/hfds/gr/v20200120/hfds_Omon_MRI-ESM2-0_ssp585_r1i1p1f1_gr_201501-210012.nc hfds/MRI-ESM2-0_r1i1p1f1/CMIP6.ScenarioMIP.MRI.MRI-ESM2-0.ssp585.r1i1p1f1.Omon.hfds.gr.v20200120/hfds_Omon_MRI-ESM2-0_ssp585_r1i1p1f1_gr_201501-210012.nc
 /css03_data/CMIP6/ScenarioMIP/MRI/MRI-ESM2-0/ssp585/r1i1p1f1/Omon/hfds/gr/v20200120/hfds_Omon_MRI-ESM2-0_ssp585_r1i1p1f1_gr_210101-230012.nc hfds/MRI-ESM2-0_r1i1p1f1/CMIP6.ScenarioMIP.MRI.MRI-ESM2-0.ssp585.r1i1p1f1.Omon.hfds.gr.v20200120/hfds_Omon_MRI-ESM2-0_ssp585_r1i1p1f1_gr_210101-230012.nc
 /css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/1pctCO2/r1i1p1f1/Omon/hfcorr/gn/v20210311/hfcorr_Omon_MRI-ESM2-0_1pctCO2_r1i1p1f1_gn_185001-200012.nc hfcorr/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.1pctCO2.r1i1p1f1.Omon.hfcorr.gn.v20210311/hfcorr_Omon_MRI-ESM2-0_1pctCO2_r1i1p1f1_gn_185001-200012.nc
+/css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/1pctCO2/r1i1p1f1/Omon/hfcorr/gr/v20191205/hfcorr_Omon_MRI-ESM2-0_1pctCO2_r1i1p1f1_gr_185001-200012.nc hfcorr/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.1pctCO2.r1i1p1f1.Omon.hfcorr.gr.v20191205/hfcorr_Omon_MRI-ESM2-0_1pctCO2_r1i1p1f1_gr_185001-200012.nc
 /css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/abrupt-4xCO2/r1i1p1f1/Omon/hfcorr/gn/v20210311/hfcorr_Omon_MRI-ESM2-0_abrupt-4xCO2_r1i1p1f1_gn_185001-200012.nc hfcorr/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.abrupt-4xCO2.r1i1p1f1.Omon.hfcorr.gn.v20210311/hfcorr_Omon_MRI-ESM2-0_abrupt-4xCO2_r1i1p1f1_gn_185001-200012.nc
 /css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/abrupt-4xCO2/r1i1p1f1/Omon/hfcorr/gr/v20191224/hfcorr_Omon_MRI-ESM2-0_abrupt-4xCO2_r1i1p1f1_gr_185001-200012.nc hfcorr/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.abrupt-4xCO2.r1i1p1f1.Omon.hfcorr.gr.v20191224/hfcorr_Omon_MRI-ESM2-0_abrupt-4xCO2_r1i1p1f1_gr_185001-200012.nc
 /css03_data/CMIP6/CMIP/MRI/MRI-ESM2-0/historical/r1i1p1f1/Omon/hfcorr/gn/v20210311/hfcorr_Omon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc hfcorr/MRI-ESM2-0_r1i1p1f1/CMIP6.CMIP.MRI.MRI-ESM2-0.historical.r1i1p1f1.Omon.hfcorr.gn.v20210311/hfcorr_Omon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc

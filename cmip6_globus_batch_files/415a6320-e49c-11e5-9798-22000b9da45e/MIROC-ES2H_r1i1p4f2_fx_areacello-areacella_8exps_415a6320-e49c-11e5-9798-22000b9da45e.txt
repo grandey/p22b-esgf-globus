@@ -1,0 +1,14 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 415a6320-e49c-11e5-9798-22000b9da45e (Name: LLNL ESGF).
+# 5 files in batch (83% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 415a6320-e49c-11e5-9798-22000b9da45e
+# To submit transfer use Globus CLI:
+# globus transfer 415a6320-e49c-11e5-9798-22000b9da45e $GCP_EP_CMIP6 --batch MIROC-ES2H_r1i1p4f2_fx_areacello-areacella_8exps_415a6320-e49c-11e5-9798-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MIROC-ES2H_r1i1p4f2_fx_areacello-areacella_8exps_415a6320-e49c-11e5-9798-22000b9da45e"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/css03_data/CMIP6/CMIP/MIROC/MIROC-ES2H/abrupt-4xCO2/r1i1p4f2/Ofx/areacello/gn/v20220322/areacello_Ofx_MIROC-ES2H_abrupt-4xCO2_r1i1p4f2_gn.nc areacello/MIROC-ES2H_r1i1p4f2/CMIP6.CMIP.MIROC.MIROC-ES2H.abrupt-4xCO2.r1i1p4f2.Ofx.areacello.gn.v20220322/areacello_Ofx_MIROC-ES2H_abrupt-4xCO2_r1i1p4f2_gn.nc
+/css03_data/CMIP6/CMIP/MIROC/MIROC-ES2H/historical/r1i1p4f2/Ofx/areacello/gn/v20220322/areacello_Ofx_MIROC-ES2H_historical_r1i1p4f2_gn.nc areacello/MIROC-ES2H_r1i1p4f2/CMIP6.CMIP.MIROC.MIROC-ES2H.historical.r1i1p4f2.Ofx.areacello.gn.v20220322/areacello_Ofx_MIROC-ES2H_historical_r1i1p4f2_gn.nc
+/css03_data/CMIP6/CMIP/MIROC/MIROC-ES2H/piControl/r1i1p4f2/Ofx/areacello/gn/v20220322/areacello_Ofx_MIROC-ES2H_piControl_r1i1p4f2_gn.nc areacello/MIROC-ES2H_r1i1p4f2/CMIP6.CMIP.MIROC.MIROC-ES2H.piControl.r1i1p4f2.Ofx.areacello.gn.v20220322/areacello_Ofx_MIROC-ES2H_piControl_r1i1p4f2_gn.nc
+/css03_data/CMIP6/CMIP/MIROC/MIROC-ES2H/historical/r1i1p4f2/fx/areacella/gn/v20220322/areacella_fx_MIROC-ES2H_historical_r1i1p4f2_gn.nc areacella/MIROC-ES2H_r1i1p4f2/CMIP6.CMIP.MIROC.MIROC-ES2H.historical.r1i1p4f2.fx.areacella.gn.v20220322/areacella_fx_MIROC-ES2H_historical_r1i1p4f2_gn.nc
+/css03_data/CMIP6/CMIP/MIROC/MIROC-ES2H/piControl/r1i1p4f2/fx/areacella/gn/v20220322/areacella_fx_MIROC-ES2H_piControl_r1i1p4f2_gn.nc areacella/MIROC-ES2H_r1i1p4f2/CMIP6.CMIP.MIROC.MIROC-ES2H.piControl.r1i1p4f2.fx.areacella.gn.v20220322/areacella_fx_MIROC-ES2H_piControl_r1i1p4f2_gn.nc

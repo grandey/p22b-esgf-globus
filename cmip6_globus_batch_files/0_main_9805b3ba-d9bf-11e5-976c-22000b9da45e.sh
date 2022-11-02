@@ -1,8 +1,8 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-26.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-11-01.
 # Globus endpoint is 9805b3ba-d9bf-11e5-976c-22000b9da45e (Name: None).
-# 3 batch file(s).
+# 5 batch file(s).
 # Caution:
 # Please do not run this script if previously submitted Globus transfers are still running (to reduce risk of two or more transfers trying to access same local file simultaneously, and in light of Globus limits).
 # Environment variables:
@@ -27,6 +27,12 @@ globus transfer 9805b3ba-d9bf-11e5-976c-22000b9da45e $GCP_EP_CMIP6 --batch 9805b
 sleep 5
 echo GFDL-ESM4_r1i1p1f1_Amon_4vars-inc-rlut_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e
 globus transfer 9805b3ba-d9bf-11e5-976c-22000b9da45e $GCP_EP_CMIP6 --batch 9805b3ba-d9bf-11e5-976c-22000b9da45e/GFDL-ESM4_r1i1p1f1_Amon_4vars-inc-rlut_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-ESM4_r1i1p1f1_Amon_4vars-inc-rlut_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e"
+sleep 5
+echo GFDL-CM4_r1i1p1f1_fx_areacello-areacella_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e
+globus transfer 9805b3ba-d9bf-11e5-976c-22000b9da45e $GCP_EP_CMIP6 --batch 9805b3ba-d9bf-11e5-976c-22000b9da45e/GFDL-CM4_r1i1p1f1_fx_areacello-areacella_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-CM4_r1i1p1f1_fx_areacello-areacella_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e"
+sleep 5
+echo GFDL-ESM4_r1i1p1f1_fx_areacello-areacella_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e
+globus transfer 9805b3ba-d9bf-11e5-976c-22000b9da45e $GCP_EP_CMIP6 --batch 9805b3ba-d9bf-11e5-976c-22000b9da45e/GFDL-ESM4_r1i1p1f1_fx_areacello-areacella_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-ESM4_r1i1p1f1_fx_areacello-areacella_8exps_9805b3ba-d9bf-11e5-976c-22000b9da45e"
 sleep 5
 
 exit 0

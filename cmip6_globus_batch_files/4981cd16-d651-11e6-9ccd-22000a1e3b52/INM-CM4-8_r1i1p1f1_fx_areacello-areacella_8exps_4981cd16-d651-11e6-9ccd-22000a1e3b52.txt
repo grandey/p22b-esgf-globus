@@ -1,0 +1,18 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 4981cd16-d651-11e6-9ccd-22000a1e3b52 (Name: DKRZ ESGF CMIP6).
+# 9 files in batch (100% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 4981cd16-d651-11e6-9ccd-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch INM-CM4-8_r1i1p1f1_fx_areacello-areacella_8exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "INM-CM4-8_r1i1p1f1_fx_areacello-areacella_8exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/cmip6/CMIP/INM/INM-CM4-8/piControl/r1i1p1f1/Ofx/areacello/gr1/v20201029/areacello_Ofx_INM-CM4-8_piControl_r1i1p1f1_gr1.nc areacello/INM-CM4-8_r1i1p1f1/CMIP6.CMIP.INM.INM-CM4-8.piControl.r1i1p1f1.Ofx.areacello.gr1.v20201029/areacello_Ofx_INM-CM4-8_piControl_r1i1p1f1_gr1.nc
+/cmip6/CMIP/INM/INM-CM4-8/1pctCO2/r1i1p1f1/fx/areacella/gr1/v20190530/areacella_fx_INM-CM4-8_1pctCO2_r1i1p1f1_gr1.nc areacella/INM-CM4-8_r1i1p1f1/CMIP6.CMIP.INM.INM-CM4-8.1pctCO2.r1i1p1f1.fx.areacella.gr1.v20190530/areacella_fx_INM-CM4-8_1pctCO2_r1i1p1f1_gr1.nc
+/cmip6/CMIP/INM/INM-CM4-8/abrupt-4xCO2/r1i1p1f1/fx/areacella/gr1/v20190529/areacella_fx_INM-CM4-8_abrupt-4xCO2_r1i1p1f1_gr1.nc areacella/INM-CM4-8_r1i1p1f1/CMIP6.CMIP.INM.INM-CM4-8.abrupt-4xCO2.r1i1p1f1.fx.areacella.gr1.v20190529/areacella_fx_INM-CM4-8_abrupt-4xCO2_r1i1p1f1_gr1.nc
+/cmip6/CMIP/INM/INM-CM4-8/historical/r1i1p1f1/fx/areacella/gr1/v20190528/areacella_fx_INM-CM4-8_historical_r1i1p1f1_gr1.nc areacella/INM-CM4-8_r1i1p1f1/CMIP6.CMIP.INM.INM-CM4-8.historical.r1i1p1f1.fx.areacella.gr1.v20190528/areacella_fx_INM-CM4-8_historical_r1i1p1f1_gr1.nc
+/cmip6/CMIP/INM/INM-CM4-8/piControl/r1i1p1f1/fx/areacella/gr1/v20190604/areacella_fx_INM-CM4-8_piControl_r1i1p1f1_gr1.nc areacella/INM-CM4-8_r1i1p1f1/CMIP6.CMIP.INM.INM-CM4-8.piControl.r1i1p1f1.fx.areacella.gr1.v20190604/areacella_fx_INM-CM4-8_piControl_r1i1p1f1_gr1.nc
+/cmip6/ScenarioMIP/INM/INM-CM4-8/ssp126/r1i1p1f1/fx/areacella/gr1/v20190603/areacella_fx_INM-CM4-8_ssp126_r1i1p1f1_gr1.nc areacella/INM-CM4-8_r1i1p1f1/CMIP6.ScenarioMIP.INM.INM-CM4-8.ssp126.r1i1p1f1.fx.areacella.gr1.v20190603/areacella_fx_INM-CM4-8_ssp126_r1i1p1f1_gr1.nc
+/cmip6/ScenarioMIP/INM/INM-CM4-8/ssp245/r1i1p1f1/fx/areacella/gr1/v20190603/areacella_fx_INM-CM4-8_ssp245_r1i1p1f1_gr1.nc areacella/INM-CM4-8_r1i1p1f1/CMIP6.ScenarioMIP.INM.INM-CM4-8.ssp245.r1i1p1f1.fx.areacella.gr1.v20190603/areacella_fx_INM-CM4-8_ssp245_r1i1p1f1_gr1.nc
+/cmip6/ScenarioMIP/INM/INM-CM4-8/ssp370/r1i1p1f1/fx/areacella/gr1/v20190603/areacella_fx_INM-CM4-8_ssp370_r1i1p1f1_gr1.nc areacella/INM-CM4-8_r1i1p1f1/CMIP6.ScenarioMIP.INM.INM-CM4-8.ssp370.r1i1p1f1.fx.areacella.gr1.v20190603/areacella_fx_INM-CM4-8_ssp370_r1i1p1f1_gr1.nc
+/cmip6/ScenarioMIP/INM/INM-CM4-8/ssp585/r1i1p1f1/fx/areacella/gr1/v20190603/areacella_fx_INM-CM4-8_ssp585_r1i1p1f1_gr1.nc areacella/INM-CM4-8_r1i1p1f1/CMIP6.ScenarioMIP.INM.INM-CM4-8.ssp585.r1i1p1f1.fx.areacella.gr1.v20190603/areacella_fx_INM-CM4-8_ssp585_r1i1p1f1_gr1.nc

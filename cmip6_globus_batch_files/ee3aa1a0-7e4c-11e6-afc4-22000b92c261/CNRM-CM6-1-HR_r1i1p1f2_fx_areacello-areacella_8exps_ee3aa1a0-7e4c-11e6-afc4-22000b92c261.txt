@@ -1,0 +1,16 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
+# 7 files in batch (58% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+# To submit transfer use Globus CLI:
+# globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch CNRM-CM6-1-HR_r1i1p1f2_fx_areacello-areacella_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "CNRM-CM6-1-HR_r1i1p1f2_fx_areacello-areacella_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/esg_cmip6/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/1pctCO2/r1i1p1f2/Ofx/areacello/gn/v20191021/areacello_Ofx_CNRM-CM6-1-HR_1pctCO2_r1i1p1f2_gn.nc areacello/CNRM-CM6-1-HR_r1i1p1f2/CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1-HR.1pctCO2.r1i1p1f2.Ofx.areacello.gn.v20191021/areacello_Ofx_CNRM-CM6-1-HR_1pctCO2_r1i1p1f2_gn.nc
+/esg_cmip6/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/historical/r1i1p1f2/Ofx/areacello/gn/v20191021/areacello_Ofx_CNRM-CM6-1-HR_historical_r1i1p1f2_gn.nc areacello/CNRM-CM6-1-HR_r1i1p1f2/CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1-HR.historical.r1i1p1f2.Ofx.areacello.gn.v20191021/areacello_Ofx_CNRM-CM6-1-HR_historical_r1i1p1f2_gn.nc
+/esg_cmip6/CMIP6/ScenarioMIP/CNRM-CERFACS/CNRM-CM6-1-HR/ssp126/r1i1p1f2/Ofx/areacello/gn/v20200127/areacello_Ofx_CNRM-CM6-1-HR_ssp126_r1i1p1f2_gn.nc areacello/CNRM-CM6-1-HR_r1i1p1f2/CMIP6.ScenarioMIP.CNRM-CERFACS.CNRM-CM6-1-HR.ssp126.r1i1p1f2.Ofx.areacello.gn.v20200127/areacello_Ofx_CNRM-CM6-1-HR_ssp126_r1i1p1f2_gn.nc
+/esg_cmip6/CMIP6/ScenarioMIP/CNRM-CERFACS/CNRM-CM6-1-HR/ssp245/r1i1p1f2/Ofx/areacello/gn/v20191202/areacello_Ofx_CNRM-CM6-1-HR_ssp245_r1i1p1f2_gn.nc areacello/CNRM-CM6-1-HR_r1i1p1f2/CMIP6.ScenarioMIP.CNRM-CERFACS.CNRM-CM6-1-HR.ssp245.r1i1p1f2.Ofx.areacello.gn.v20191202/areacello_Ofx_CNRM-CM6-1-HR_ssp245_r1i1p1f2_gn.nc
+/esg_cmip6/CMIP6/ScenarioMIP/CNRM-CERFACS/CNRM-CM6-1-HR/ssp370/r1i1p1f2/Ofx/areacello/gn/v20200127/areacello_Ofx_CNRM-CM6-1-HR_ssp370_r1i1p1f2_gn.nc areacello/CNRM-CM6-1-HR_r1i1p1f2/CMIP6.ScenarioMIP.CNRM-CERFACS.CNRM-CM6-1-HR.ssp370.r1i1p1f2.Ofx.areacello.gn.v20200127/areacello_Ofx_CNRM-CM6-1-HR_ssp370_r1i1p1f2_gn.nc
+/esg_cmip6/CMIP6/ScenarioMIP/CNRM-CERFACS/CNRM-CM6-1-HR/ssp585/r1i1p1f2/Ofx/areacello/gn/v20191202/areacello_Ofx_CNRM-CM6-1-HR_ssp585_r1i1p1f2_gn.nc areacello/CNRM-CM6-1-HR_r1i1p1f2/CMIP6.ScenarioMIP.CNRM-CERFACS.CNRM-CM6-1-HR.ssp585.r1i1p1f2.Ofx.areacello.gn.v20191202/areacello_Ofx_CNRM-CM6-1-HR_ssp585_r1i1p1f2_gn.nc
+/esg_cmip6/CMIP6/CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/historical/r1i1p1f2/fx/areacella/gr/v20191021/areacella_fx_CNRM-CM6-1-HR_historical_r1i1p1f2_gr.nc areacella/CNRM-CM6-1-HR_r1i1p1f2/CMIP6.CMIP.CNRM-CERFACS.CNRM-CM6-1-HR.historical.r1i1p1f2.fx.areacella.gr.v20191021/areacella_fx_CNRM-CM6-1-HR_historical_r1i1p1f2_gr.nc

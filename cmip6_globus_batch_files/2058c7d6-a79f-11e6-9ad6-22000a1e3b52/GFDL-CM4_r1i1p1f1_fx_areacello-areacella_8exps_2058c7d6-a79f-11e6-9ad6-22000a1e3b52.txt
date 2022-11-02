@@ -1,0 +1,13 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 (Name: NCI ESGF).
+# 4 files in batch (25% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 2058c7d6-a79f-11e6-9ad6-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 $GCP_EP_CMIP6 --batch GFDL-CM4_r1i1p1f1_fx_areacello-areacella_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "GFDL-CM4_r1i1p1f1_fx_areacello-areacella_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/replica/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp245/r1i1p1f1/fx/areacella/gr1/v20180701/areacella_fx_GFDL-CM4_ssp245_r1i1p1f1_gr1.nc areacella/GFDL-CM4_r1i1p1f1/CMIP6.ScenarioMIP.NOAA-GFDL.GFDL-CM4.ssp245.r1i1p1f1.fx.areacella.gr1.v20180701/areacella_fx_GFDL-CM4_ssp245_r1i1p1f1_gr1.nc
+/replica/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp245/r1i1p1f1/fx/areacella/gr2/v20180701/areacella_fx_GFDL-CM4_ssp245_r1i1p1f1_gr2.nc areacella/GFDL-CM4_r1i1p1f1/CMIP6.ScenarioMIP.NOAA-GFDL.GFDL-CM4.ssp245.r1i1p1f1.fx.areacella.gr2.v20180701/areacella_fx_GFDL-CM4_ssp245_r1i1p1f1_gr2.nc
+/replica/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/fx/areacella/gr1/v20180701/areacella_fx_GFDL-CM4_ssp585_r1i1p1f1_gr1.nc areacella/GFDL-CM4_r1i1p1f1/CMIP6.ScenarioMIP.NOAA-GFDL.GFDL-CM4.ssp585.r1i1p1f1.fx.areacella.gr1.v20180701/areacella_fx_GFDL-CM4_ssp585_r1i1p1f1_gr1.nc
+/replica/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/fx/areacella/gr2/v20180701/areacella_fx_GFDL-CM4_ssp585_r1i1p1f1_gr2.nc areacella/GFDL-CM4_r1i1p1f1/CMIP6.ScenarioMIP.NOAA-GFDL.GFDL-CM4.ssp585.r1i1p1f1.fx.areacella.gr2.v20180701/areacella_fx_GFDL-CM4_ssp585_r1i1p1f1_gr2.nc

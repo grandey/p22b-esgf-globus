@@ -1,0 +1,19 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 (Name: NCI ESGF).
+# 10 files in batch (62% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 2058c7d6-a79f-11e6-9ad6-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 $GCP_EP_CMIP6 --batch MPI-ESM1-2-LR_r1i1p1f1_fx_areacello-areacella_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MPI-ESM1-2-LR_r1i1p1f1_fx_areacello-areacella_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/replica/CMIP6/CMIP/MPI-M/MPI-ESM1-2-LR/historical/r1i1p1f1/Ofx/areacello/gn/v20190710/areacello_Ofx_MPI-ESM1-2-LR_historical_r1i1p1f1_gn.nc areacello/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.CMIP.MPI-M.MPI-ESM1-2-LR.historical.r1i1p1f1.Ofx.areacello.gn.v20190710/areacello_Ofx_MPI-ESM1-2-LR_historical_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp126/r1i1p1f1/Ofx/areacello/gn/v20190710/areacello_Ofx_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn.nc areacello/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp126.r1i1p1f1.Ofx.areacello.gn.v20190710/areacello_Ofx_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp245/r1i1p1f1/Ofx/areacello/gn/v20190710/areacello_Ofx_MPI-ESM1-2-LR_ssp245_r1i1p1f1_gn.nc areacello/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp245.r1i1p1f1.Ofx.areacello.gn.v20190710/areacello_Ofx_MPI-ESM1-2-LR_ssp245_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp370/r1i1p1f1/Ofx/areacello/gn/v20190710/areacello_Ofx_MPI-ESM1-2-LR_ssp370_r1i1p1f1_gn.nc areacello/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp370.r1i1p1f1.Ofx.areacello.gn.v20190710/areacello_Ofx_MPI-ESM1-2-LR_ssp370_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp585/r1i1p1f1/Ofx/areacello/gn/v20190710/areacello_Ofx_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn.nc areacello/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp585.r1i1p1f1.Ofx.areacello.gn.v20190710/areacello_Ofx_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn.nc
+/replica/CMIP6/CMIP/MPI-M/MPI-ESM1-2-LR/historical/r1i1p1f1/fx/areacella/gn/v20190710/areacella_fx_MPI-ESM1-2-LR_historical_r1i1p1f1_gn.nc areacella/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.CMIP.MPI-M.MPI-ESM1-2-LR.historical.r1i1p1f1.fx.areacella.gn.v20190710/areacella_fx_MPI-ESM1-2-LR_historical_r1i1p1f1_gn.nc
+/replica/CMIP6/CMIP/MPI-M/MPI-ESM1-2-LR/piControl/r1i1p1f1/fx/areacella/gn/v20190710/areacella_fx_MPI-ESM1-2-LR_piControl_r1i1p1f1_gn.nc areacella/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.CMIP.MPI-M.MPI-ESM1-2-LR.piControl.r1i1p1f1.fx.areacella.gn.v20190710/areacella_fx_MPI-ESM1-2-LR_piControl_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp245/r1i1p1f1/fx/areacella/gn/v20190710/areacella_fx_MPI-ESM1-2-LR_ssp245_r1i1p1f1_gn.nc areacella/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp245.r1i1p1f1.fx.areacella.gn.v20190710/areacella_fx_MPI-ESM1-2-LR_ssp245_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp370/r1i1p1f1/fx/areacella/gn/v20190710/areacella_fx_MPI-ESM1-2-LR_ssp370_r1i1p1f1_gn.nc areacella/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp370.r1i1p1f1.fx.areacella.gn.v20190710/areacella_fx_MPI-ESM1-2-LR_ssp370_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp585/r1i1p1f1/fx/areacella/gn/v20190710/areacella_fx_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn.nc areacella/MPI-ESM1-2-LR_r1i1p1f1/CMIP6.ScenarioMIP.MPI-M.MPI-ESM1-2-LR.ssp585.r1i1p1f1.fx.areacella.gn.v20190710/areacella_fx_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn.nc

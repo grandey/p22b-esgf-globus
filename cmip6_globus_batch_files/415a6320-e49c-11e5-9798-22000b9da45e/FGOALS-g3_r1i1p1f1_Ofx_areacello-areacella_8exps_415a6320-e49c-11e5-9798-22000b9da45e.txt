@@ -1,0 +1,14 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 415a6320-e49c-11e5-9798-22000b9da45e (Name: LLNL ESGF).
+# 5 files in batch (83% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 415a6320-e49c-11e5-9798-22000b9da45e
+# To submit transfer use Globus CLI:
+# globus transfer 415a6320-e49c-11e5-9798-22000b9da45e $GCP_EP_CMIP6 --batch FGOALS-g3_r1i1p1f1_Ofx_areacello-areacella_8exps_415a6320-e49c-11e5-9798-22000b9da45e.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "FGOALS-g3_r1i1p1f1_Ofx_areacello-areacella_8exps_415a6320-e49c-11e5-9798-22000b9da45e"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/css03_data/CMIP6/CMIP/CAS/FGOALS-g3/historical/r1i1p1f1/Ofx/areacello/gn/v20200917/areacello_Ofx_FGOALS-g3_historical_r1i1p1f1_gn.nc areacello/FGOALS-g3_r1i1p1f1/CMIP6.CMIP.CAS.FGOALS-g3.historical.r1i1p1f1.Ofx.areacello.gn.v20200917/areacello_Ofx_FGOALS-g3_historical_r1i1p1f1_gn.nc
+/css03_data/CMIP6/ScenarioMIP/CAS/FGOALS-g3/ssp126/r1i1p1f1/Ofx/areacello/gn/v20201021/areacello_Ofx_FGOALS-g3_ssp126_r1i1p1f1_gn.nc areacello/FGOALS-g3_r1i1p1f1/CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp126.r1i1p1f1.Ofx.areacello.gn.v20201021/areacello_Ofx_FGOALS-g3_ssp126_r1i1p1f1_gn.nc
+/css03_data/CMIP6/ScenarioMIP/CAS/FGOALS-g3/ssp245/r1i1p1f1/Ofx/areacello/gn/v20201021/areacello_Ofx_FGOALS-g3_ssp245_r1i1p1f1_gn.nc areacello/FGOALS-g3_r1i1p1f1/CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp245.r1i1p1f1.Ofx.areacello.gn.v20201021/areacello_Ofx_FGOALS-g3_ssp245_r1i1p1f1_gn.nc
+/css03_data/CMIP6/ScenarioMIP/CAS/FGOALS-g3/ssp370/r1i1p1f1/Ofx/areacello/gn/v20201021/areacello_Ofx_FGOALS-g3_ssp370_r1i1p1f1_gn.nc areacello/FGOALS-g3_r1i1p1f1/CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp370.r1i1p1f1.Ofx.areacello.gn.v20201021/areacello_Ofx_FGOALS-g3_ssp370_r1i1p1f1_gn.nc
+/css03_data/CMIP6/ScenarioMIP/CAS/FGOALS-g3/ssp585/r1i1p1f1/Ofx/areacello/gn/v20201021/areacello_Ofx_FGOALS-g3_ssp585_r1i1p1f1_gn.nc areacello/FGOALS-g3_r1i1p1f1/CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp585.r1i1p1f1.Ofx.areacello.gn.v20201021/areacello_Ofx_FGOALS-g3_ssp585_r1i1p1f1_gn.nc

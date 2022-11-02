@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-# Written by create_cmip6_globus_batch_files.ipynb on 2022-04-26.
+# Written by create_cmip6_globus_batch_files.ipynb on 2022-11-01.
 # Globus endpoint is 04cc625e-a79a-11e9-b595-0e56e8fd6d5a (Name: icscamscma#esg.camscma.cn).
 # 2 batch file(s).
 # Caution:

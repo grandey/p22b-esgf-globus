@@ -1,0 +1,21 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 (Name: NCI ESGF).
+# 12 files in batch (75% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 2058c7d6-a79f-11e6-9ad6-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 $GCP_EP_CMIP6 --batch IPSL-CM6A-LR_r1i1p1f1_fx_areacello-areacella_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "IPSL-CM6A-LR_r1i1p1f1_fx_areacello-areacella_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/replica/CMIP6/ScenarioMIP/IPSL/IPSL-CM6A-LR/ssp126/r1i1p1f1/Ofx/areacello/gn/v20190903/areacello_Ofx_IPSL-CM6A-LR_ssp126_r1i1p1f1_gn.nc areacello/IPSL-CM6A-LR_r1i1p1f1/CMIP6.ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp126.r1i1p1f1.Ofx.areacello.gn.v20190903/areacello_Ofx_IPSL-CM6A-LR_ssp126_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/IPSL/IPSL-CM6A-LR/ssp245/r1i1p1f1/Ofx/areacello/gn/v20190119/areacello_Ofx_IPSL-CM6A-LR_ssp245_r1i1p1f1_gn.nc areacello/IPSL-CM6A-LR_r1i1p1f1/CMIP6.ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp245.r1i1p1f1.Ofx.areacello.gn.v20190119/areacello_Ofx_IPSL-CM6A-LR_ssp245_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/IPSL/IPSL-CM6A-LR/ssp370/r1i1p1f1/Ofx/areacello/gn/v20190119/areacello_Ofx_IPSL-CM6A-LR_ssp370_r1i1p1f1_gn.nc areacello/IPSL-CM6A-LR_r1i1p1f1/CMIP6.ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp370.r1i1p1f1.Ofx.areacello.gn.v20190119/areacello_Ofx_IPSL-CM6A-LR_ssp370_r1i1p1f1_gn.nc
+/replica/CMIP6/ScenarioMIP/IPSL/IPSL-CM6A-LR/ssp585/r1i1p1f1/Ofx/areacello/gn/v20190903/areacello_Ofx_IPSL-CM6A-LR_ssp585_r1i1p1f1_gn.nc areacello/IPSL-CM6A-LR_r1i1p1f1/CMIP6.ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp585.r1i1p1f1.Ofx.areacello.gn.v20190903/areacello_Ofx_IPSL-CM6A-LR_ssp585_r1i1p1f1_gn.nc
+/replica/CMIP6/CMIP/IPSL/IPSL-CM6A-LR/1pctCO2/r1i1p1f1/fx/areacella/gr/v20180727/areacella_fx_IPSL-CM6A-LR_1pctCO2_r1i1p1f1_gr.nc areacella/IPSL-CM6A-LR_r1i1p1f1/CMIP6.CMIP.IPSL.IPSL-CM6A-LR.1pctCO2.r1i1p1f1.fx.areacella.gr.v20180727/areacella_fx_IPSL-CM6A-LR_1pctCO2_r1i1p1f1_gr.nc
+/replica/CMIP6/CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/fx/areacella/gr/v20190118/areacella_fx_IPSL-CM6A-LR_abrupt-4xCO2_r1i1p1f1_gr.nc areacella/IPSL-CM6A-LR_r1i1p1f1/CMIP6.CMIP.IPSL.IPSL-CM6A-LR.abrupt-4xCO2.r1i1p1f1.fx.areacella.gr.v20190118/areacella_fx_IPSL-CM6A-LR_abrupt-4xCO2_r1i1p1f1_gr.nc
+/replica/CMIP6/CMIP/IPSL/IPSL-CM6A-LR/historical/r1i1p1f1/fx/areacella/gr/v20180803/areacella_fx_IPSL-CM6A-LR_historical_r1i1p1f1_gr.nc areacella/IPSL-CM6A-LR_r1i1p1f1/CMIP6.CMIP.IPSL.IPSL-CM6A-LR.historical.r1i1p1f1.fx.areacella.gr.v20180803/areacella_fx_IPSL-CM6A-LR_historical_r1i1p1f1_gr.nc
+/replica/CMIP6/CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/fx/areacella/gr/v20181123/areacella_fx_IPSL-CM6A-LR_piControl_r1i1p1f1_gr.nc areacella/IPSL-CM6A-LR_r1i1p1f1/CMIP6.CMIP.IPSL.IPSL-CM6A-LR.piControl.r1i1p1f1.fx.areacella.gr.v20181123/areacella_fx_IPSL-CM6A-LR_piControl_r1i1p1f1_gr.nc
+/replica/CMIP6/ScenarioMIP/IPSL/IPSL-CM6A-LR/ssp126/r1i1p1f1/fx/areacella/gr/v20190903/areacella_fx_IPSL-CM6A-LR_ssp126_r1i1p1f1_gr.nc areacella/IPSL-CM6A-LR_r1i1p1f1/CMIP6.ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp126.r1i1p1f1.fx.areacella.gr.v20190903/areacella_fx_IPSL-CM6A-LR_ssp126_r1i1p1f1_gr.nc
+/replica/CMIP6/ScenarioMIP/IPSL/IPSL-CM6A-LR/ssp245/r1i1p1f1/fx/areacella/gr/v20190119/areacella_fx_IPSL-CM6A-LR_ssp245_r1i1p1f1_gr.nc areacella/IPSL-CM6A-LR_r1i1p1f1/CMIP6.ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp245.r1i1p1f1.fx.areacella.gr.v20190119/areacella_fx_IPSL-CM6A-LR_ssp245_r1i1p1f1_gr.nc
+/replica/CMIP6/ScenarioMIP/IPSL/IPSL-CM6A-LR/ssp370/r1i1p1f1/fx/areacella/gr/v20190119/areacella_fx_IPSL-CM6A-LR_ssp370_r1i1p1f1_gr.nc areacella/IPSL-CM6A-LR_r1i1p1f1/CMIP6.ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp370.r1i1p1f1.fx.areacella.gr.v20190119/areacella_fx_IPSL-CM6A-LR_ssp370_r1i1p1f1_gr.nc
+/replica/CMIP6/ScenarioMIP/IPSL/IPSL-CM6A-LR/ssp585/r1i1p1f1/fx/areacella/gr/v20190903/areacella_fx_IPSL-CM6A-LR_ssp585_r1i1p1f1_gr.nc areacella/IPSL-CM6A-LR_r1i1p1f1/CMIP6.ScenarioMIP.IPSL.IPSL-CM6A-LR.ssp585.r1i1p1f1.fx.areacella.gr.v20190903/areacella_fx_IPSL-CM6A-LR_ssp585_r1i1p1f1_gr.nc

@@ -1,0 +1,16 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 (Name: NCI ESGF).
+# 7 files in batch (44% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 2058c7d6-a79f-11e6-9ad6-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 2058c7d6-a79f-11e6-9ad6-22000a1e3b52 $GCP_EP_CMIP6 --batch MIROC-ES2L_r1i1p1f2_fx_areacello-areacella_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "MIROC-ES2L_r1i1p1f2_fx_areacello-areacella_8exps_2058c7d6-a79f-11e6-9ad6-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/replica/CMIP6/CMIP/MIROC/MIROC-ES2L/abrupt-4xCO2/r1i1p1f2/Ofx/areacello/gn/v20190823/areacello_Ofx_MIROC-ES2L_abrupt-4xCO2_r1i1p1f2_gn.nc areacello/MIROC-ES2L_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2L.abrupt-4xCO2.r1i1p1f2.Ofx.areacello.gn.v20190823/areacello_Ofx_MIROC-ES2L_abrupt-4xCO2_r1i1p1f2_gn.nc
+/replica/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp126/r1i1p1f2/Ofx/areacello/gn/v20190823/areacello_Ofx_MIROC-ES2L_ssp126_r1i1p1f2_gn.nc areacello/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp126.r1i1p1f2.Ofx.areacello.gn.v20190823/areacello_Ofx_MIROC-ES2L_ssp126_r1i1p1f2_gn.nc
+/replica/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp245/r1i1p1f2/Ofx/areacello/gn/v20190823/areacello_Ofx_MIROC-ES2L_ssp245_r1i1p1f2_gn.nc areacello/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp245.r1i1p1f2.Ofx.areacello.gn.v20190823/areacello_Ofx_MIROC-ES2L_ssp245_r1i1p1f2_gn.nc
+/replica/CMIP6/CMIP/MIROC/MIROC-ES2L/abrupt-4xCO2/r1i1p1f2/fx/areacella/gn/v20190823/areacella_fx_MIROC-ES2L_abrupt-4xCO2_r1i1p1f2_gn.nc areacella/MIROC-ES2L_r1i1p1f2/CMIP6.CMIP.MIROC.MIROC-ES2L.abrupt-4xCO2.r1i1p1f2.fx.areacella.gn.v20190823/areacella_fx_MIROC-ES2L_abrupt-4xCO2_r1i1p1f2_gn.nc
+/replica/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp126/r1i1p1f2/fx/areacella/gn/v20190823/areacella_fx_MIROC-ES2L_ssp126_r1i1p1f2_gn.nc areacella/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp126.r1i1p1f2.fx.areacella.gn.v20190823/areacella_fx_MIROC-ES2L_ssp126_r1i1p1f2_gn.nc
+/replica/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp370/r1i1p1f2/fx/areacella/gn/v20190823/areacella_fx_MIROC-ES2L_ssp370_r1i1p1f2_gn.nc areacella/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp370.r1i1p1f2.fx.areacella.gn.v20190823/areacella_fx_MIROC-ES2L_ssp370_r1i1p1f2_gn.nc
+/replica/CMIP6/ScenarioMIP/MIROC/MIROC-ES2L/ssp585/r1i1p1f2/fx/areacella/gn/v20190823/areacella_fx_MIROC-ES2L_ssp585_r1i1p1f2_gn.nc areacella/MIROC-ES2L_r1i1p1f2/CMIP6.ScenarioMIP.MIROC.MIROC-ES2L.ssp585.r1i1p1f2.fx.areacella.gn.v20190823/areacella_fx_MIROC-ES2L_ssp585_r1i1p1f2_gn.nc

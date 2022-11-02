@@ -1,0 +1,14 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is ee3aa1a0-7e4c-11e6-afc4-22000b92c261 (Name: CEDA ESGF DN1).
+# 5 files in batch (71% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web ee3aa1a0-7e4c-11e6-afc4-22000b92c261
+# To submit transfer use Globus CLI:
+# globus transfer ee3aa1a0-7e4c-11e6-afc4-22000b92c261 $GCP_EP_CMIP6 --batch INM-CM5-0_r1i1p1f1_fx_areacello-areacella_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "INM-CM5-0_r1i1p1f1_fx_areacello-areacella_8exps_ee3aa1a0-7e4c-11e6-afc4-22000b92c261"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/esg_cmip6/CMIP6/CMIP/INM/INM-CM5-0/piControl/r1i1p1f1/Ofx/areacello/gr1/v20201029/areacello_Ofx_INM-CM5-0_piControl_r1i1p1f1_gr1.nc areacello/INM-CM5-0_r1i1p1f1/CMIP6.CMIP.INM.INM-CM5-0.piControl.r1i1p1f1.Ofx.areacello.gr1.v20201029/areacello_Ofx_INM-CM5-0_piControl_r1i1p1f1_gr1.nc
+/esg_cmip6/CMIP6/CMIP/INM/INM-CM5-0/historical/r1i1p1f1/fx/areacella/gr1/v20190610/areacella_fx_INM-CM5-0_historical_r1i1p1f1_gr1.nc areacella/INM-CM5-0_r1i1p1f1/CMIP6.CMIP.INM.INM-CM5-0.historical.r1i1p1f1.fx.areacella.gr1.v20190610/areacella_fx_INM-CM5-0_historical_r1i1p1f1_gr1.nc
+/esg_cmip6/CMIP6/ScenarioMIP/INM/INM-CM5-0/ssp126/r1i1p1f1/fx/areacella/gr1/v20190619/areacella_fx_INM-CM5-0_ssp126_r1i1p1f1_gr1.nc areacella/INM-CM5-0_r1i1p1f1/CMIP6.ScenarioMIP.INM.INM-CM5-0.ssp126.r1i1p1f1.fx.areacella.gr1.v20190619/areacella_fx_INM-CM5-0_ssp126_r1i1p1f1_gr1.nc
+/esg_cmip6/CMIP6/ScenarioMIP/INM/INM-CM5-0/ssp245/r1i1p1f1/fx/areacella/gr1/v20190619/areacella_fx_INM-CM5-0_ssp245_r1i1p1f1_gr1.nc areacella/INM-CM5-0_r1i1p1f1/CMIP6.ScenarioMIP.INM.INM-CM5-0.ssp245.r1i1p1f1.fx.areacella.gr1.v20190619/areacella_fx_INM-CM5-0_ssp245_r1i1p1f1_gr1.nc
+/esg_cmip6/CMIP6/ScenarioMIP/INM/INM-CM5-0/ssp370/r1i1p1f1/fx/areacella/gr1/v20190618/areacella_fx_INM-CM5-0_ssp370_r1i1p1f1_gr1.nc areacella/INM-CM5-0_r1i1p1f1/CMIP6.ScenarioMIP.INM.INM-CM5-0.ssp370.r1i1p1f1.fx.areacella.gr1.v20190618/areacella_fx_INM-CM5-0_ssp370_r1i1p1f1_gr1.nc

@@ -1,0 +1,19 @@
+# Written by write_globus_batch_files() in create_cmip6_globus_batch_files.ipynb on 2022-11-01.
+# Globus endpoint is 4981cd16-d651-11e6-9ccd-22000a1e3b52 (Name: DKRZ ESGF CMIP6).
+# 10 files in batch (56% coverage of filenames).
+# To activate source endpoint use Globus CLI:
+# globus endpoint activate --web 4981cd16-d651-11e6-9ccd-22000a1e3b52
+# To submit transfer use Globus CLI:
+# globus transfer 4981cd16-d651-11e6-9ccd-22000a1e3b52 $GCP_EP_CMIP6 --batch NorESM2-LM_r1i1p1f1_fx_areacello-areacella_8exps_4981cd16-d651-11e6-9ccd-22000a1e3b52.txt --preserve-mtime --fail-on-quota-errors --skip-source-errors --sync-level checksum --label "NorESM2-LM_r1i1p1f1_fx_areacello-areacella_8exps_4981cd16-d651-11e6-9ccd-22000a1e3b52"
+# Replace $GCP_EP_CMIP6 with intended destination endpoint, including base path.
+
+/cmip6/CMIP/NCC/NorESM2-LM/1pctCO2/r1i1p1f1/Ofx/areacello/gn/v20190815/areacello_Ofx_NorESM2-LM_1pctCO2_r1i1p1f1_gn.nc areacello/NorESM2-LM_r1i1p1f1/CMIP6.CMIP.NCC.NorESM2-LM.1pctCO2.r1i1p1f1.Ofx.areacello.gn.v20190815/areacello_Ofx_NorESM2-LM_1pctCO2_r1i1p1f1_gn.nc
+/cmip6/ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/Ofx/areacello/gn/v20191108/areacello_Ofx_NorESM2-LM_ssp126_r1i1p1f1_gn.nc areacello/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp126.r1i1p1f1.Ofx.areacello.gn.v20191108/areacello_Ofx_NorESM2-LM_ssp126_r1i1p1f1_gn.nc
+/cmip6/ScenarioMIP/NCC/NorESM2-LM/ssp245/r1i1p1f1/Ofx/areacello/gn/v20191108/areacello_Ofx_NorESM2-LM_ssp245_r1i1p1f1_gn.nc areacello/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp245.r1i1p1f1.Ofx.areacello.gn.v20191108/areacello_Ofx_NorESM2-LM_ssp245_r1i1p1f1_gn.nc
+/cmip6/ScenarioMIP/NCC/NorESM2-LM/ssp370/r1i1p1f1/Ofx/areacello/gn/v20191108/areacello_Ofx_NorESM2-LM_ssp370_r1i1p1f1_gn.nc areacello/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp370.r1i1p1f1.Ofx.areacello.gn.v20191108/areacello_Ofx_NorESM2-LM_ssp370_r1i1p1f1_gn.nc
+/cmip6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/Ofx/areacello/gn/v20191108/areacello_Ofx_NorESM2-LM_ssp585_r1i1p1f1_gn.nc areacello/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Ofx.areacello.gn.v20191108/areacello_Ofx_NorESM2-LM_ssp585_r1i1p1f1_gn.nc
+/cmip6/CMIP/NCC/NorESM2-LM/historical/r1i1p1f1/fx/areacella/gn/v20190815/areacella_fx_NorESM2-LM_historical_r1i1p1f1_gn.nc areacella/NorESM2-LM_r1i1p1f1/CMIP6.CMIP.NCC.NorESM2-LM.historical.r1i1p1f1.fx.areacella.gn.v20190815/areacella_fx_NorESM2-LM_historical_r1i1p1f1_gn.nc
+/cmip6/ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/fx/areacella/gn/v20191108/areacella_fx_NorESM2-LM_ssp126_r1i1p1f1_gn.nc areacella/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp126.r1i1p1f1.fx.areacella.gn.v20191108/areacella_fx_NorESM2-LM_ssp126_r1i1p1f1_gn.nc
+/cmip6/ScenarioMIP/NCC/NorESM2-LM/ssp245/r1i1p1f1/fx/areacella/gn/v20191108/areacella_fx_NorESM2-LM_ssp245_r1i1p1f1_gn.nc areacella/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp245.r1i1p1f1.fx.areacella.gn.v20191108/areacella_fx_NorESM2-LM_ssp245_r1i1p1f1_gn.nc
+/cmip6/ScenarioMIP/NCC/NorESM2-LM/ssp370/r1i1p1f1/fx/areacella/gn/v20191108/areacella_fx_NorESM2-LM_ssp370_r1i1p1f1_gn.nc areacella/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp370.r1i1p1f1.fx.areacella.gn.v20191108/areacella_fx_NorESM2-LM_ssp370_r1i1p1f1_gn.nc
+/cmip6/ScenarioMIP/NCC/NorESM2-LM/ssp585/r1i1p1f1/fx/areacella/gn/v20191108/areacella_fx_NorESM2-LM_ssp585_r1i1p1f1_gn.nc areacella/NorESM2-LM_r1i1p1f1/CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.fx.areacella.gn.v20191108/areacella_fx_NorESM2-LM_ssp585_r1i1p1f1_gn.nc
